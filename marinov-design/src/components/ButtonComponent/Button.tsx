@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
+import style from "./style.module.css";
 
-const Button = () => {
-  return (
-    <div>Button</div>
-  )
+interface IButton {
+  text: string;
+  route?: string;
+  handleRoute: () => void;
 }
 
-export default Button
+const ButtonComp = ({ text, route, handleRoute }: IButton) => {
+  const buttonClass = route ? `${style.button} ${style[route]}` : style.button;
+
+  return (
+    <div>
+      <button className={buttonClass} onClick={handleRoute}>
+        {text}
+      </button>
+    </div>
+  );
+};
+
+export default ButtonComp;
