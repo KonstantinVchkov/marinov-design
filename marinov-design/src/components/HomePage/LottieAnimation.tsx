@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import lottie, { AnimationItem } from 'lottie-web';
-
+import style from './style.module.css'
 interface LottieAnimationProps {
   animationData: any; 
 }
@@ -18,8 +18,6 @@ const LottieAnimation: React.FC<LottieAnimationProps> = ({ animationData }) => {
         autoplay: true,
         animationData,
       });
-
-      // Cleanup function
       return () => {
         if (animationInstance.current) {
           animationInstance.current.destroy();
@@ -28,7 +26,7 @@ const LottieAnimation: React.FC<LottieAnimationProps> = ({ animationData }) => {
     }
   }, []);
 
-  return <div ref={animationContainer}></div>;
+  return <div className={style.AnimationImage} ref={animationContainer}></div>;
 };
 
 export default LottieAnimation;
