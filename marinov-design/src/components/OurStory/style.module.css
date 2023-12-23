@@ -9,10 +9,12 @@
 }
 .Container{
     margin: 0 16px;
+    background-color: transparent;
 }
 .Container h1{
     padding-top: 80px;
     margin-bottom: 8px;
+    background-color: transparent;
 }
 .Container h5{
     font-size: 48px;
@@ -20,6 +22,7 @@
     line-height: 56px;  
     margin-top: 101px;
     padding-bottom: 16px;
+    background-color: transparent;
 }
 .Container p{
     font-size: 24px;
@@ -27,6 +30,10 @@
     line-height: 38px;
     color: #3C1913;
     margin-top: 8px;
+    background-color: transparent;
+}
+.Container p b{
+    background-color: transparent;
 }
 .CopperPotDiv{
     height: 400px;
@@ -39,6 +46,7 @@
     right: 0;
     top: 28%;
     z-index: 100;
+    background-color: transparent;
 }
 .OhridImg{
     width: 375px;
@@ -46,6 +54,7 @@
     left: 0;
     top: 60%;
     z-index: 99;
+    background-color: transparent;
 }
 .CopperAgingDiv{
     width: 375px;
@@ -63,12 +72,14 @@
     font-weight: 700;
     line-height: 56px;
     margin: 0 16px;
+    background-color: transparent;
 }
 .CopperAgingDiv h5:nth-child(2){
     position: absolute;
     bottom: 13%;
     text-align: end;
     margin-bottom: 32px;
+    background-color: transparent;
 }
 .CopperAgingDiv p{
     position: absolute;
@@ -82,29 +93,34 @@
     line-height: 38px;
     margin: 0 16px;
     margin-bottom: 32px;
+    background-color: transparent;
 }
 .BeltDiv{
     position: relative;
     height: 300px;
+    background-color: transparent;
 }
 .Belt{
     position: absolute;
     top: -30%;
     right: 0;
-    
+    background-color: transparent;
 }
 .Paragraph{
     text-align: end;
+    background-color: transparent;
 }
 .SlaveAndHelmet{
     position: relative;
     height: 600px;
+    background-color: transparent;
 }
 .Slave{
     width: 235px;
     position: absolute;
     left: 20%;
     top: 5%;
+    background-color: transparent;
 }
 .Helmet{
     width: 401px;
@@ -112,20 +128,27 @@
     top: 60%;
     right: -80%;
     transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+.Decoration{
+    background-color: transparent;
 }
 .RingDiv{
     position: relative;
     height: 300px;
+    background-color: transparent;
 }
 .Ring{
     width: 350px;
     height: 267;
     position: absolute;
     right: -15%;
+    background-color: transparent;
 }
 .BraceletDiv{
     position: relative;
     height: 500px;
+    background-color: transparent;
 }
 .Bracelet{
     position: absolute;
@@ -133,8 +156,10 @@
     height: 451.781px;
     transform: rotate(24.237deg);
     flex-shrink: 0;
-    right: -15%;        
+    right: -15%;      
+    background-color: transparent;  
 }
+
 .SmallFontParagraph{
     font-family: 'Amulya', sans-serif;
     font-size: 16px;
