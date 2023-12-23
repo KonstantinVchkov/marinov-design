@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
   background: #fbfaf8;
+  padding-top: 84px;
 }
 .hero_jewelry,
 .hero_custom,
@@ -18,6 +19,9 @@
   position: absolute;
   top: 20%;
   left: 55%;
+}
+.text{
+  z-index: 1;
 }
 .secondSectionText,
 .thirdSectionText,
@@ -111,7 +115,7 @@
   border: none;
   border-radius: 16px 0px 16px 0px;
 }
-.SecondSectionButton button:hover,.textOldTown .buttonTextOldTown button:hover {
+.SecondSectionButton button:hover,.fourthSectionText .buttonTextOldTown button:hover {
   box-shadow: 5px 4px 8px 0px #f2b294;
   border-radius: 20px 0px 16px 0px;
   background-color: #9b4923;
@@ -153,15 +157,9 @@
   margin: 10px auto;
   padding: 16px 24px 24px 24px;
 }
-.textOldTown {
-  /* position: absolute;
-bottom: 0; */
-  width: Fill (295px);
-  height: Hug (272px);
-  gap: 8px;
-}
 
-.textOldTown h2 {
+
+.fourthSectionText h2 {
   font-family: Cabinet Grotesk;
   font-size: 48px;
   font-weight: 700;
@@ -170,7 +168,7 @@ bottom: 0; */
   text-align: left;
   color: #3c1913;
 }
-.textOldTown p {
+.fourthSectionText p {
   font-family: Cabinet Grotesk;
   font-size: 24px;
   font-weight: 500;
@@ -179,7 +177,7 @@ bottom: 0; */
   text-align: left;
   color: #3c1913;
 }
-.textOldTown .buttonTextOldTown button {
+.fourthSectionText .buttonTextOldTown button {
   width: auto;
   height: auto;
   padding: 12px 24px 12px 24px;

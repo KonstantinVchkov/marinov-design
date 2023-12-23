@@ -29,7 +29,7 @@ const Header: React.FC<HeaderProps> = ({isHomePage}) => {
     setIsMenuOpen(!isMenuOpen);
     console.log("test")
   };
-
+  
 
   return (
     <div className={style.Header}>

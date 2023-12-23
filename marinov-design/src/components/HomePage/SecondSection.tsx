@@ -36,16 +36,19 @@ const SecondSection = () => {
       <div className={style.frameButterfly}></div>
       <div className={style.ohrid_Old_Town}>
         <div className={style.fourthSectionText}>
-          <div className={style.textOldTown}>
-            <h2>Visit Our Shop</h2>
-            <p>
-              Come meet us at the heart of Ohrid’s old town and experience the
-              art of craftsmanship firsthand!
-            </p>
-            <ButtonComp text={"Contact Details"} className={style.buttonTextOldTown} handleRoute={() => {
-              handleRoute('contact')
-            } } />
-          </div>
+          <h2>Visit Our Shop</h2>
+          <p>
+            Come meet us at the heart of Ohrid’s old town and experience the art
+            of craftsmanship firsthand!
+          </p>
+          <ButtonComp
+            text={"Contact Details"}
+            className={style.buttonTextOldTown}
+            handleRoute={() => {
+              handleRoute("contact");
+            }}
+          />
+          <div className={style.textOldTown}></div>
         </div>
       </div>
     </div>
