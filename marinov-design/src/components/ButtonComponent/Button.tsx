@@ -11,8 +11,8 @@ const ButtonComp = ({ text, route, handleRoute }: IButton) => {
   const buttonClass = route ? `${style.button} ${style[route]}` : style.button;
 
   return (
-    <div>
-      <button className={buttonClass} onClick={handleRoute}>
+    <div className={style.ButtonBrwn} >
+      <button onClick={handleRoute} className={buttonClass} >
         {text}
       </button>
     </div>

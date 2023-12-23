@@ -12,13 +12,14 @@ const LottieAnimation = dynamic(() => import("./LottieAnimation"), {
 
 const FirstSection = () => {
   const handleRoute = (value: string) => {
+    console.log('button clicked')
     router.push(`/${value}`);
   };
   return (
     <div className={style.FirstSection}>
       <div className={style.hero_jewelry}>
         <div className={style.text}>
-          <h2>Unique Handcrafted Jewelry</h2>
+          <h3>Unique Handcrafted Jewelry</h3>
           <ButtonComp
             text={"Shop now"}
             handleRoute={() => {
