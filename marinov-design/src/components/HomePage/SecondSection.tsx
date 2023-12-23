@@ -51,6 +51,63 @@ const SecondSection = () => {
           <div className={style.textOldTown}></div>
         </div>
       </div>
+      <div className={style.reviews}>
+        <div className={style.reviewsText}>
+          <h2>What Our Clients Say</h2>
+        </div>
+        <div className={style.textContainerOne}>
+          <p>
+            “I stumbled upon Marinov during my trip to Ohrid, and I'm so glad I
+            did. Their shop is a hidden gem filled with beautifully handcrafted
+            copper pieces. I bought a pair of earrings, and every time I wear
+            them, I receive compliments. The unique designs and the warmth of
+            the staff make Marinov an unforgettable experience. Highly
+            recommended!”{" "}
+            <h2>
+              - Elsa Johansson, <span>Sweden</span>
+            </h2>
+          </p>
+        </div>
+        <div className={style.textContainerOne}>
+          <p>
+            “I stumbled upon Marinov during my trip to Ohrid, and I'm so glad I
+            did. Their shop is a hidden gem filled with beautifully handcrafted
+            copper pieces. I bought a pair of earrings, and every time I wear
+            them, I receive compliments. The unique designs and the warmth of
+            the staff make Marinov an unforgettable experience. Highly
+            recommended!”{" "}
+            <h2>
+              - Elsa Johansson, <span>Sweden</span>
+            </h2>
+          </p>
+        </div>
+        <div className={style.textContainerOne}>
+          <p>
+            “I stumbled upon Marinov during my trip to Ohrid, and I'm so glad I
+            did. Their shop is a hidden gem filled with beautifully handcrafted
+            copper pieces. I bought a pair of earrings, and every time I wear
+            them, I receive compliments. The unique designs and the warmth of
+            the staff make Marinov an unforgettable experience. Highly
+            recommended!”{" "}
+            <h2>
+              - Elsa Johansson, <span>Sweden</span>
+            </h2>
+          </p>
+        </div>
+        <div className={style.textContainerOne}>
+          <p>
+            “I stumbled upon Marinov during my trip to Ohrid, and I'm so glad I
+            did. Their shop is a hidden gem filled with beautifully handcrafted
+            copper pieces. I bought a pair of earrings, and every time I wear
+            them, I receive compliments. The unique designs and the warmth of
+            the staff make Marinov an unforgettable experience. Highly
+            recommended!”{" "}
+            <h2>
+              - Elsa Johansson, <span>Sweden</span>
+            </h2>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

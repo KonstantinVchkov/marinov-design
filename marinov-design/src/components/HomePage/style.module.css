@@ -4,6 +4,40 @@
   background: #fbfaf8;
   padding-top: 84px;
 }
+.reviews {
+  width: 340px;
+  margin: 0px auto;
+}
+.reviewsText {
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+}
+.reviewsText h2 {
+  font-family: Cabinet Grotesk;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3c1913;
+}
+.textContainerOne {
+  width: 343px;
+  height: 354px;
+  padding: 24px;
+  border-radius: 40px 0px 40px 0px;
+  color: #3c1913;
+}
+.textContainerOne p {
+  font-family: Amulya;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 .hero_jewelry,
 .hero_custom,
 .hero_decor {
@@ -20,7 +54,7 @@
   top: 20%;
   left: 55%;
 }
-.text{
+.text {
   z-index: 1;
 }
 .secondSectionText,
@@ -31,7 +65,7 @@
   font-weight: 300;
   line-height: 40px;
   letter-spacing: 0em;
-  color: brown;
+  color: #3c1913;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,7 +149,8 @@
   border: none;
   border-radius: 16px 0px 16px 0px;
 }
-.SecondSectionButton button:hover,.fourthSectionText .buttonTextOldTown button:hover {
+.SecondSectionButton button:hover,
+.fourthSectionText .buttonTextOldTown button:hover {
   box-shadow: 5px 4px 8px 0px #f2b294;
   border-radius: 20px 0px 16px 0px;
   background-color: #9b4923;
@@ -157,7 +192,6 @@
   margin: 10px auto;
   padding: 16px 24px 24px 24px;
 }
-
 
 .fourthSectionText h2 {
   font-family: Cabinet Grotesk;
