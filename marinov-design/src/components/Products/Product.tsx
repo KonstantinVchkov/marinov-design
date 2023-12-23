@@ -6,8 +6,10 @@ const Product = ({ images, price, name, click }: IProductProps) => {
   return (
     <div onClick={click} className={style.Product}>
       <img src={images[0]} alt="product-img" />
-      <p>{name}</p>
-      <p>{price}</p>
+      <div className={style.infoSection}>
+        <p>{name}</p>
+        <p>{price}</p>
+      </div>
     </div>
   );
 };

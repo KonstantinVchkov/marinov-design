@@ -54,7 +54,7 @@
   "products": [
     {
       "id": "1",
-      "image": "/images/JEWELRYIMAGES/earrings 1.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -81,7 +81,7 @@
     },
     {
       "id": "2",
-      "image": "/images/JEWELRYIMAGES/earrings 2.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -108,7 +108,7 @@
     },
     {
       "id": "3",
-      "image": "/images/JEWELRYIMAGES/earrings 3.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -125,7 +125,7 @@
     },
     {
       "id": "4",
-      "image": "/images/JEWELRYIMAGES/earrings 4.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -152,7 +152,7 @@
     },
     {
       "id": "5",
-      "image": "/images/JEWELRYIMAGES/earrings 5.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -179,7 +179,7 @@
     },
     {
       "id": "6",
-      "image": "/images/JEWELRYIMAGES/earrings 6.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -206,7 +206,7 @@
     },
     {
       "id": "7",
-      "image": "/images/JEWELRYIMAGES/earrings 7.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -233,7 +233,7 @@
     },
     {
       "id": "8",
-      "image": "/images/JEWELRYIMAGES/earrings 8.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -260,7 +260,7 @@
     },
     {
       "id": "9",
-      "image": "/images/JEWELRYIMAGES/earrings 9.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -287,7 +287,7 @@
     },
     {
       "id": "10",
-      "image": "/images/JEWELRYIMAGES/earrings 10.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -314,7 +314,7 @@
     },
     {
       "id": "11",
-      "image": "/images/JEWELRYIMAGES/earrings 11.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -341,7 +341,7 @@
     },
     {
       "id": "12",
-      "image": "/images/JEWELRYIMAGES/earrings 12.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -369,7 +369,7 @@
 
     {
       "id": "13",
-      "image": "/images/HomeDecorPage/helmet large 1.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Helmet - Large",
       "category": "Helmets",
@@ -399,7 +399,7 @@
     },
     {
       "id": "14",
-      "image": "/images/HomeDecorPage/helmet large 2.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Helmet - Large",
       "category": "Helmets",
@@ -429,7 +429,7 @@
     },
     {
       "id": "15",
-      "image": "/images/HomeDecorPage/helmet medium.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Helmet - Large",
       "category": "Helmets",
@@ -459,7 +459,7 @@
     },
     {
       "id": "16",
-      "image": "/images/HomeDecorPage/helmet small.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Helmet - Large",
       "category": "Helmets",
@@ -489,7 +489,7 @@
     },
     {
       "id": "17",
-      "image": "/images/HomeDecorPage/helmets title.jpg",
+      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
       "brand": "Pinc Partywear",
       "name": "Copper Helmet - Large",
       "category": "Helmets",
@@ -533,7 +533,7 @@
 
   "ContactUs": {
     "PageTitle": "Контакт",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Campbell_County_Rockpile_Museum_gift_shop_in_Gillette%2C_Wyoming.jpg",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/d/da/Campbell_County_Rockpile_Museum_gift_shop_in_Gillette%2C_Wyoming.jpg",
     "title": "Игралиште Дебар Маало",
     "subtitle": "Откриј ги нашите останати модни парчиња и колекции кои ги немаме изложено на нашата страна!",
     "contactInfo": "Костурски Херои бр.6/14 Дебар Маало, Скопје",
@@ -618,7 +618,7 @@
       "id": 1,
       "brandName": "PincPartywear",
       "brandAnswer": "Velit id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in?",
-      "brandImage": "https://onecms-res.cloudinary.com/image/upload/s--a04qSXI0--/c_crop,h_1125,w_1500,x_0,y_1/c_fill,g_auto,h_622,w_830/f_auto,q_auto/v1/mediacorp/cna/image/2023/07/14/how-do-you-shop-for-vintage-clothings_Frecklesaisvintage%20and%20Huntstreet.png?itok=3oKskHHZ",
+      "brandImage": "https://onecms-res.cloudinary.com/images/upload/s--a04qSXI0--/c_crop,h_1125,w_1500,x_0,y_1/c_fill,g_auto,h_622,w_830/f_auto,q_auto/v1/mediacorp/cna/images/2023/07/14/how-do-you-shop-for-vintage-clothings_Frecklesaisvintage%20and%20Huntstreet.png?itok=3oKskHHZ",
       "brandConcept": "Pink Partywear се базира врз основа на неколку прашања:",
       "brandDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem."
     },
