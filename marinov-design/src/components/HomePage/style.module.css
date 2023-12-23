@@ -1,9 +1,44 @@
-.HomePageComponent{
-    width: 100%;
+.HomePageComponent {
+  width: 100%;
+  background: #fbfaf8;
+}
+.hero_jewelry,
+.hero_custom,
+.hero_decor {
+  position: relative;
+  height: 606px;
+}
+.AnimationImage {
+  width: 440px;
+  height: 100%;
+}
+.hero_jewelry .text {
+  text-align: right;
+}
+.text {
+  font-family: Cabinet Grotesk;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+.jewelryAnimation,
+.customAnimation,
+.decorAnimation {
+  position: absolute;
+}
+.jewelryAnimation {
+  top: 0px;
+  left: -80px;
+  rotate: 10deg;
+}
 @media only screen and (max-width: 375px) {
-    .HomePageComponent {
-      width: 375px;
-    }
+  .HomePageComponent {
+    width: 375px;
   }
+}
