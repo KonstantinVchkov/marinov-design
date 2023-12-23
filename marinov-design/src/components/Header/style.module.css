@@ -7,7 +7,7 @@
         position: fixed;
         align-items: center;
         font-family: 'Cabinet Grotesk', sans-serif;
-        z-index: 1000000;
+        z-index: 1000;
     }
     .LogoDiv{
         display: flex;
