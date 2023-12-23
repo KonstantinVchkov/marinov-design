@@ -1,7 +1,7 @@
 import React from 'react';
 import style from "./style.module.css";
 import Header from '@/components/Header/Header';
-import UncontrolledExample from './Carousel';
+import CarouselComponent from './Carousel';
 
 const OurStory = () => {
   return (
@@ -54,8 +54,23 @@ const OurStory = () => {
                     <p className={style.Paragraph}>Using <b>traditional techniques</b> taught by her family, she experiments with new <b>complementary materials</b> and methods of production, mixing <b>past and present</b> to create timeless pieces of jewelry.</p>
                     <h5>Peek Into Our Process</h5>
                 </div>
+            <CarouselComponent/>
+                <div className={style.Container}>
+                    <p className={style.SmallFontParagraph}>Crafting copper jewelry is a meticulous art, requiring precision, honed skill, and a deep commitment to excellence. Every step, from shaping the raw copper to adding intricate details, demands careful attention.</p>
+                    <p className={style.SmallFontParagraph}>It's more than creating a piece of jewelry; it's a dedication to the art, passion, and expertise that define our work.</p>
+                    <p className={style.SmallFontParagraph}>Each finished piece speaks of our commitment to quality, promising a distinctive and beautifully crafted copper jewelry experience for you.</p>
+                    <h5>Certified Craftsmanship</h5>
+                    <p className={style.SmallFontParagraph}>Through the years, our business and skilled craftsmen have achieved numerous certifications, showcasing our commitment to exceptional craftsmanship. We have actively engaged in international workshops, demonstrating our craft and learning from various traditions. </p>
+                    <p className={style.SmallFontParagraph}>These experiences reflect our continuous journey of skill enhancement and passion for the art, reinforcing our dedication to quality.</p>
+                </div>
 
-    <UncontrolledExample/>
+                <div className={style.WallBackground}>
+    <img src="/images/OURSTORYIMAGES/certificate 1.jpg" alt="" className={style.Certificate1}/>
+    <img src="/images/OURSTORYIMAGES/certificate 2.jpg" alt="" className={style.Certificate2}/>
+    <img src="/images/OURSTORYIMAGES/certificate 3.jpg" alt="" className={style.Certificate3}/>
+    <img src="/images/OURSTORYIMAGES/certificate 4.jpg" alt="" className={style.Certificate4}/>
+    <img src="/images/OURSTORYIMAGES/certificate 5.jpg" alt="" className={style.Certificate5}/>
+                </div>
             </div>
   </>
   )

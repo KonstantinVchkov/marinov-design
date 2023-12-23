@@ -135,4 +135,54 @@
     flex-shrink: 0;
     right: -15%;        
 }
+.SmallFontParagraph{
+    font-family: 'Amulya', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.SmallFontParagraph:last-child{
+    width: 55%;
+    position: absolute;
+    z-index: 100000;
+}
+.WallBackground{
+    position: relative;
+    margin-top: 100px;
+    width: 375px;
+    height: 1105px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #FBFAF8 0%, rgba(251, 250, 248, 0.00) 18.37%), url("/images/OURSTORYIMAGES/wall background.jpg"), lightgray 50% / cover no-repeat;
+}
+.Certificate1{
+    width: 115px;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+.Certificate2{
+    width: 172px;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+}
+.Certificate3{
+    width: 274px;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+.Certificate4{
+    width: 218px;
+    position: absolute;
+    left: 3%;
+    top: 59%;
+}
+.Certificate5{
+    width: 131px;
+    position: absolute;
+    right: 15%;
+    top: 75%;
+}
 }
