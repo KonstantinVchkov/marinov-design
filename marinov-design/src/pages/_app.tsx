@@ -11,9 +11,14 @@ export default function App({ Component, pageProps }: AppProps) {
   const isHomePage = router.pathname === '/';
   return (
     <>
-      <Header isHomePage={isHomePage} />
+    {
+      router.pathname.startsWith(`/payments`) ? null : <Header isHomePage={isHomePage} />
+    }
+      
       <Component {...pageProps} />
-      <Footer />
+      {
+         router.pathname.startsWith(`/payments`) ? null :  <Footer />
+      }
     </>
   );
 }

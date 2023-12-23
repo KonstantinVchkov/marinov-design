@@ -176,3 +176,7 @@ li {
   line-height: 20px;
   word-wrap: "break-word";
 }
+.backgroundPayments {
+  background-color: #fbfaf8;
+}
+
