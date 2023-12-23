@@ -1,8 +1,105 @@
-import React from 'react'
+import React from 'react';
+import style from "./style.module.css";
+import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className={style.Footer}>
+      <div className={style.FooterTop}>
+          <img src="/images/footer/footer_top_section_bg.png" alt="footer_background" />
+          <img src="/images/icon-svgs/Vector (1).svg" alt="logo" className={style.FooterLogo}/>
+          <Link href='ourStory' className={style.LinkToOurStory}>See Our Story</Link>
+      </div>
+      <div className={style.FooterContent}>
+        <img src="/images/icon-svgs/logotype.svg" alt="logotype" className={style.LogoType}/>
+
+        <div className={style.Title}>
+          <Link href='/'>
+          <h3>Jewelry</h3>
+          </Link>
+          <h3>EN | MK</h3>
+        </div>
+              <div className={style.Subtitle}>
+                <ul>
+                  <Link href='/'>
+                  <li>Earrings</li>
+                  </Link>
+                  <Link href='/'>
+                  <li>Rings</li>
+                  </Link>
+                  <Link href='/'>
+                  <li>Nechlaces</li>
+                  </Link>
+                  <Link href='/'>
+                  <li>Bracelets</li>
+                  </Link>
+                  <Link href='/'>
+                  <li>Sets</li>
+                  </Link>
+                  <Link href='/'>
+                  <li>Other</li>
+                  </Link>
+                </ul>
+              </div>
+        <div className={style.Title}>
+          <Link href='/'>
+          <h3>Home decor</h3>
+          </Link>
+        </div>
+              <div className={style.Subtitle}>
+                <ul>
+                  <Link href='/'>
+                  <li>Helmets</li>
+                  </Link>
+                  <Link href='/'>
+                  <li>Other</li>
+                  </Link>
+                </ul>
+              </div>
+      <div className={style.Title}>
+          <h3>Custom orders</h3>
+      </div>
+      <div className={style.Title}>
+          <h3>Our story</h3>
+      </div>
+      <div className={style.Title}>
+          <h3>Faq</h3>
+      </div>
+      <div className={style.Title}>
+          <h3>Contact</h3>
+      </div>
+      <div className={style.Title}>
+          <h3>Profile</h3>
+      </div>
+
+    <div className={style.SocialMedia}>
+      <a href="">
+      <img src="/images/footer/instagram.png" alt="instagramLogo" />
+      </a>
+      <a href="">
+      <img src="/images/footer/facebook.png" alt="facebookLogo" />
+      </a>
+      <a href="">
+      <img src="/images/footer/whatsapp.png" alt="whatsappLogo" />
+      </a>
+    </div>
+
+    <div className={style.Subtitle}>
+      <p>Privacy Policy</p>
+      <p>Terms & Conditions</p>
+      <p>Shipping and Returns Policy</p>
+    </div>
+
+    <div className={style.Copyright}>
+      <p>&copy; Marinov Design 2023 - All Rights Reserved.</p>
+    </div>
+
+
+
+
+
+      </div>
+      </div>
   )
 }
 
