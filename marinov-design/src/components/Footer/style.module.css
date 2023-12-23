@@ -13,6 +13,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: transparent;
 }
 .LinkToOurStory{
     position: absolute;
@@ -21,6 +22,7 @@
     transform: translate(-50%, -50%);
     text-decoration: underline;
     line-height: 20px;
+    background-color: transparent;
 }
 .FooterContent{
     margin: 40px 24px;

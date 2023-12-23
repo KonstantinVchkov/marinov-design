@@ -1,12 +1,10 @@
 import React from 'react';
 import style from "./style.module.css";
-// import Header from '@/components/Header/Header';
 import CarouselComponent from './Carousel';
 
 const OurStory = () => {
   return (
   <>
-        {/* <Header isHomePage={false}/> */}
             <div className={style.OurStory}>
                 <div className={style.Container}>
                 <h1>Our story</h1>
@@ -38,8 +36,8 @@ const OurStory = () => {
                     <img src="/images/OURSTORYIMAGES/slave.png" alt="slave" className={style.Slave}/>
                     <img src="/images/OURSTORYIMAGES/helmet.png" alt="helmer" className={style.Helmet} />
                 </div>
+                    <img src="/images/OURSTORYIMAGES/Group 51.png" alt="" className={style.Decoration}/>
                 <div>
-                    <img src="/images/OURSTORYIMAGES/Group 51.svg" alt="" />
                 </div>
 
                 <div className={style.Container}>
