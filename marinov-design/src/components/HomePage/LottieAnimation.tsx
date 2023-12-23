@@ -18,8 +18,6 @@ const LottieAnimation: React.FC<LottieAnimationProps> = ({ animationData }) => {
         autoplay: true,
         animationData,
       });
-
-      // Cleanup function
       return () => {
         if (animationInstance.current) {
           animationInstance.current.destroy();

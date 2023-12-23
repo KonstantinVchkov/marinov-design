@@ -1,20 +1,18 @@
 import React from "react";
 import style from "./style.module.css";
 import ButtonComp from "../ButtonComponent/Button";
-import router from "next/router";
+
 import dynamic from "next/dynamic";
 import beeAnimation from "../../../public/images/json-animations/bee_animation.json";
 import braceletAnimation from "../../../public/images/json-animations/bracelet_animation.json";
 import helmetAnimation from "../../../public/images/json-animations/helmet_animation.json";
+import { handleRoute } from "@/utils/route";
 const LottieAnimation = dynamic(() => import("./LottieAnimation"), {
   ssr: false,
 });
 
 const FirstSection = () => {
-  const handleRoute = (value: string) => {
-    console.log('button clicked')
-    router.push(`/${value}`);
-  };
+
   return (
     <div className={style.FirstSection}>
       <div className={style.hero_jewelry}>
@@ -22,6 +20,7 @@ const FirstSection = () => {
           <h3>Unique Handcrafted Jewelry</h3>
           <ButtonComp
             text={"Shop now"}
+            className={style.ButtonBrwn}
             handleRoute={() => {
               handleRoute('jewelry');
             }}
@@ -35,6 +34,7 @@ const FirstSection = () => {
         <div className={style.text}>
           <h2>Custom Made Orders</h2>
           <ButtonComp
+           className={style.ButtonBrwn}
             text={"Order now"}
             handleRoute={() => {
               handleRoute("customorders");
@@ -49,6 +49,7 @@ const FirstSection = () => {
         <div className={style.text}>
           <h2>Exceptional Home Decor</h2>
           <ButtonComp
+          className={style.ButtonBrwn}
             text={"Discover"}
             handleRoute={() => {
               handleRoute("homedecor");
