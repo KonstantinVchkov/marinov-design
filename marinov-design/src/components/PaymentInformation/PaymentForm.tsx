@@ -20,7 +20,7 @@ const handleClick = () => {
         cardExpirationDateInputRef.current?.value !== "" &&
         cardSecurityInputRef.current?.value !== ""
       ) {
-          router.push(`/`)
+          router.push(`/payments/paymentsInformation/paymentSuccessfully`)
       }
 }
 
