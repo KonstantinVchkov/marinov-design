@@ -1,0 +1,138 @@
+@media (max-width:375px){
+
+.OurStory{
+    width: 375px;
+    background-color: #FBFAF8;
+    padding-top: 84px;
+    color: #3C1913;
+    font-family: 'Cabinet Grotesk', sans-serif;
+}
+.Container{
+    margin: 0 16px;
+}
+.Container h1{
+    padding-top: 80px;
+    margin-bottom: 8px;
+}
+.Container h5{
+    font-size: 48px;
+    font-style: normal;
+    line-height: 56px;  
+    margin-top: 101px;
+    padding-bottom: 16px;
+}
+.Container p{
+    font-size: 24px;
+    font-style: normal;
+    line-height: 38px;
+    color: #3C1913;
+    margin-top: 8px;
+}
+.CopperPotDiv{
+    height: 400px;
+    background-color: #FBFAF8;
+}
+.CopperPot{
+    width: 272px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 28%;
+    z-index: 100;
+}
+.OhridImg{
+    width: 375px;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    z-index: 99;
+}
+.CopperAgingDiv{
+    width: 375px;
+    height: 1600px;
+    margin-top: -170px;
+    background: url("../../../public/images/OURSTORYIMAGES/copper\ aging.jpg"), lightgray 50% / cover no-repeat;
+    position: relative;
+}
+.CopperAgingDiv h5{
+    padding-top: 100px;
+    color: #FBFAF8;
+    text-shadow: -2px 4px 8px rgba(28, 26, 27, 0.25);
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 0 16px;
+}
+.CopperAgingDiv h5:nth-child(2){
+    position: absolute;
+    bottom: 13%;
+    text-align: end;
+    margin-bottom: 32px;
+}
+.CopperAgingDiv p{
+    position: absolute;
+    bottom: 0;
+    color: #FBFAF8;
+    text-align: right;
+    text-shadow: -2px 4px 8px rgba(28, 26, 27, 0.25);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    margin: 0 16px;
+    margin-bottom: 32px;
+}
+.BeltDiv{
+    position: relative;
+    height: 300px;
+}
+.Belt{
+    position: absolute;
+    top: -30%;
+    right: 0;
+    
+}
+.Paragraph{
+    text-align: end;
+}
+.SlaveAndHelmet{
+    position: relative;
+    height: 600px;
+}
+.Slave{
+    width: 235px;
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+.Helmet{
+    width: 401px;
+    position: absolute;
+    top: 60%;
+    right: -80%;
+    transform: translate(-50%, -50%);
+}
+.RingDiv{
+    position: relative;
+    height: 300px;
+}
+.Ring{
+    width: 350px;
+    height: 267;
+    position: absolute;
+    right: -15%;
+}
+.BraceletDiv{
+    position: relative;
+    height: 500px;
+}
+.Bracelet{
+    position: absolute;
+    width: 372.991px;
+    height: 451.781px;
+    transform: rotate(24.237deg);
+    flex-shrink: 0;
+    right: -15%;        
+}
+}

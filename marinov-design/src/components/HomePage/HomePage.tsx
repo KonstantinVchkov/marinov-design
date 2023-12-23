@@ -2,6 +2,7 @@ import React from "react";
 import style from "./style.module.css";
 import ScrollBar from "../Scroll/ScrollBar";
 import FirstSection from "./FirstSection";
+import Header from "../Header/Header";
 const HomePage = () => {
   return (
     <div className={style.HomePageComponent}>
