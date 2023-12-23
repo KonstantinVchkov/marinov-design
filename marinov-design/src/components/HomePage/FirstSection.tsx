@@ -1,7 +1,6 @@
 import React from "react";
 import style from "./style.module.css";
 import ButtonComp from "../ButtonComponent/Button";
-
 import dynamic from "next/dynamic";
 import beeAnimation from "../../../public/images/json-animations/bee_animation.json";
 import braceletAnimation from "../../../public/images/json-animations/bracelet_animation.json";
@@ -12,7 +11,6 @@ const LottieAnimation = dynamic(() => import("./LottieAnimation"), {
 });
 
 const FirstSection = () => {
-
   return (
     <div className={style.FirstSection}>
       <div className={style.hero_jewelry}>
