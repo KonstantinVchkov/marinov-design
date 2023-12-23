@@ -1,12 +1,12 @@
 import React from 'react';
 import style from "./style.module.css";
-import Header from '@/components/Header/Header';
+// import Header from '@/components/Header/Header';
 import CarouselComponent from './Carousel';
 
 const OurStory = () => {
   return (
   <>
-        <Header isHomePage={false}/>
+        {/* <Header isHomePage={false}/> */}
             <div className={style.OurStory}>
                 <div className={style.Container}>
                 <h1>Our story</h1>
