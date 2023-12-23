@@ -1,16 +1,9 @@
 {
   "giftPrices": {
     "choosePrice": "Одбери цена на подарок картичка",
-    "prices": [
-      500,
-      1000,
-      1500,
-      2500,
-      3500,
-      4500,
-      6000
-    ]
+    "prices": [500, 1000, 1500, 2500, 3500, 4500, 6000]
   },
+
   "giftCards": {
     "cards": [
       {
@@ -46,6 +39,7 @@
       }
     ]
   },
+
   "profile": [
     {
       "firstName": "Konstantin",
@@ -56,6 +50,7 @@
       "id": 1
     }
   ],
+
   "products": [
     {
       "id": "1",
@@ -67,34 +62,22 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
       "odrzuvanje": {
-       "avoidMoisture": [
-        "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-       ],
-       "storeProperly": [
-        "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-       ],
-       "cleanRegularly": [
-        "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-       ]
+        "avoidMoisture": [
+          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        ],
+        "storeProperly": [
+          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        ],
+        "cleanRegularly": [
+          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        ]
       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "2",
@@ -106,34 +89,22 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
       "odrzuvanje": {
         "avoidMoisture": [
-         "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
         ],
         "storeProperly": [
-         "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
         ],
         "cleanRegularly": [
-         "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
         ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "3",
@@ -145,27 +116,12 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": [
-        "Machine wash",
-        "Iron low"
-      ],
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      "odrzuvanje": ["Machine wash", "Iron low"],
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "4",
@@ -177,34 +133,22 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
       "odrzuvanje": {
         "avoidMoisture": [
-         "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
         ],
         "storeProperly": [
-         "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
         ],
         "cleanRegularly": [
-         "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
         ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "5",
@@ -216,34 +160,22 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
       "odrzuvanje": {
         "avoidMoisture": [
-         "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
         ],
         "storeProperly": [
-         "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
         ],
         "cleanRegularly": [
-         "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
         ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "6",
@@ -255,34 +187,22 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
       "odrzuvanje": {
         "avoidMoisture": [
-         "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
         ],
         "storeProperly": [
-         "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
         ],
         "cleanRegularly": [
-         "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
         ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "7",
@@ -294,34 +214,22 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
       "odrzuvanje": {
         "avoidMoisture": [
-         "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
         ],
         "storeProperly": [
-         "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
         ],
         "cleanRegularly": [
-         "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
         ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "8",
@@ -333,34 +241,22 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
       "odrzuvanje": {
         "avoidMoisture": [
-         "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
         ],
         "storeProperly": [
-         "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
         ],
         "cleanRegularly": [
-         "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
         ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "9",
@@ -372,34 +268,22 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
       "odrzuvanje": {
         "avoidMoisture": [
-         "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
         ],
         "storeProperly": [
-         "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
         ],
         "cleanRegularly": [
-         "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
         ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "10",
@@ -411,34 +295,22 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
       "odrzuvanje": {
         "avoidMoisture": [
-         "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
         ],
         "storeProperly": [
-         "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
         ],
         "cleanRegularly": [
-         "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
         ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "11",
@@ -450,34 +322,22 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
       "odrzuvanje": {
         "avoidMoisture": [
-         "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
         ],
         "storeProperly": [
-         "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
         ],
         "cleanRegularly": [
-         "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
         ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "12",
@@ -489,37 +349,25 @@
       "description": "Blending modern style with classic elegance, we introduce our Copper Spiral and White Beads Earrings. Crafted with precision, these earrings feature gracefully coiled copper spirals, adding a touch of contemporary flair. The pristine white beads suspended within the spirals bring a clean and timeless aesthetic to the design. Elevate your look with this understated yet captivating accessory, perfect for both casual and formal occasions.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass",
-        "faux pearl"
-      ],
-      "dimensions": [
-        "approx. 7 cm"
-      ],
-      "weight": [
-        "14 g (per pair)"
-      ],
+      "material": ["Copper", "brass", "faux pearl"],
+      "dimensions": ["approx. 7 cm"],
+      "weight": ["14 g (per pair)"],
       "condition": "New",
       "odrzuvanje": {
         "avoidMoisture": [
-         "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
         ],
         "storeProperly": [
-         "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
         ],
         "cleanRegularly": [
-         "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
         ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
 
-      {
+    {
       "id": "13",
       "image": "/images/HomeDecorPage/helmet large 1.jpg",
       "brand": "Pinc Partywear",
@@ -529,42 +377,25 @@
       "description": "Elevate your decor with our stunning Copper Helmet. Handcrafted to perfection, this exquisite piece combines artistry and heritage. Its lustrous surface and intricate detailing add a touch of timeless elegance to any space. A captivating blend of craftsmanship and style, this copper helmet is a statement piece that exudes sophistication.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass"
-      ],
-      "dimensions": [
-        "24 x 36 cm"
-      ],
-      "weight": [
-        "3.4kg"
-      ],
+      "material": ["Copper", "brass"],
+      "dimensions": ["24 x 36 cm"],
+      "weight": ["3.4kg"],
       "condition": "New",
       "odrzuvanje": {
         "regularDusting": [
-         "Wipe with a soft, lint-free cloth to prevent buildup."
+          "Wipe with a soft, lint-free cloth to prevent buildup."
         ],
         "gentleCleaning": [
-         "Use mild soap and warm water; avoid abrasive tools."
+          "Use mild soap and warm water; avoid abrasive tools."
         ],
         "naturalPatina": [
-         "Embrace natural tarnish for an aged look or polish for shine."
+          "Embrace natural tarnish for an aged look or polish for shine."
         ],
-        "avoidMoisture": [
-          "Dry thoroughly after exposure to water."
-        ],
-        "storage": [
-          "Store in a cool, dry place; wrap to prevent scratches."
-        ],
-        "noHarshChemicals": [
-          "Avoid bleach and abrasive cleaners."
-        ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+        "avoidMoisture": ["Dry thoroughly after exposure to water."],
+        "storage": ["Store in a cool, dry place; wrap to prevent scratches."],
+        "noHarshChemicals": ["Avoid bleach and abrasive cleaners."]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "14",
@@ -576,42 +407,25 @@
       "description": "Elevate your decor with our stunning Copper Helmet. Handcrafted to perfection, this exquisite piece combines artistry and heritage. Its lustrous surface and intricate detailing add a touch of timeless elegance to any space. A captivating blend of craftsmanship and style, this copper helmet is a statement piece that exudes sophistication.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass"
-      ],
-      "dimensions": [
-        "24 x 36 cm"
-      ],
-      "weight": [
-        "3.4kg"
-      ],
+      "material": ["Copper", "brass"],
+      "dimensions": ["24 x 36 cm"],
+      "weight": ["3.4kg"],
       "condition": "New",
       "odrzuvanje": {
         "regularDusting": [
-         "Wipe with a soft, lint-free cloth to prevent buildup."
+          "Wipe with a soft, lint-free cloth to prevent buildup."
         ],
         "gentleCleaning": [
-         "Use mild soap and warm water; avoid abrasive tools."
+          "Use mild soap and warm water; avoid abrasive tools."
         ],
         "naturalPatina": [
-         "Embrace natural tarnish for an aged look or polish for shine."
+          "Embrace natural tarnish for an aged look or polish for shine."
         ],
-        "avoidMoisture": [
-          "Dry thoroughly after exposure to water."
-        ],
-        "storage": [
-          "Store in a cool, dry place; wrap to prevent scratches."
-        ],
-        "noHarshChemicals": [
-          "Avoid bleach and abrasive cleaners."
-        ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+        "avoidMoisture": ["Dry thoroughly after exposure to water."],
+        "storage": ["Store in a cool, dry place; wrap to prevent scratches."],
+        "noHarshChemicals": ["Avoid bleach and abrasive cleaners."]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "15",
@@ -623,42 +437,25 @@
       "description": "Elevate your decor with our stunning Copper Helmet. Handcrafted to perfection, this exquisite piece combines artistry and heritage. Its lustrous surface and intricate detailing add a touch of timeless elegance to any space. A captivating blend of craftsmanship and style, this copper helmet is a statement piece that exudes sophistication.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass"
-      ],
-      "dimensions": [
-        "24 x 36 cm"
-      ],
-      "weight": [
-        "3.4kg"
-      ],
+      "material": ["Copper", "brass"],
+      "dimensions": ["24 x 36 cm"],
+      "weight": ["3.4kg"],
       "condition": "New",
       "odrzuvanje": {
         "regularDusting": [
-         "Wipe with a soft, lint-free cloth to prevent buildup."
+          "Wipe with a soft, lint-free cloth to prevent buildup."
         ],
         "gentleCleaning": [
-         "Use mild soap and warm water; avoid abrasive tools."
+          "Use mild soap and warm water; avoid abrasive tools."
         ],
         "naturalPatina": [
-         "Embrace natural tarnish for an aged look or polish for shine."
+          "Embrace natural tarnish for an aged look or polish for shine."
         ],
-        "avoidMoisture": [
-          "Dry thoroughly after exposure to water."
-        ],
-        "storage": [
-          "Store in a cool, dry place; wrap to prevent scratches."
-        ],
-        "noHarshChemicals": [
-          "Avoid bleach and abrasive cleaners."
-        ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+        "avoidMoisture": ["Dry thoroughly after exposure to water."],
+        "storage": ["Store in a cool, dry place; wrap to prevent scratches."],
+        "noHarshChemicals": ["Avoid bleach and abrasive cleaners."]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "16",
@@ -670,42 +467,25 @@
       "description": "Elevate your decor with our stunning Copper Helmet. Handcrafted to perfection, this exquisite piece combines artistry and heritage. Its lustrous surface and intricate detailing add a touch of timeless elegance to any space. A captivating blend of craftsmanship and style, this copper helmet is a statement piece that exudes sophistication.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass"
-      ],
-      "dimensions": [
-        "24 x 36 cm"
-      ],
-      "weight": [
-        "3.4kg"
-      ],
+      "material": ["Copper", "brass"],
+      "dimensions": ["24 x 36 cm"],
+      "weight": ["3.4kg"],
       "condition": "New",
       "odrzuvanje": {
         "regularDusting": [
-         "Wipe with a soft, lint-free cloth to prevent buildup."
+          "Wipe with a soft, lint-free cloth to prevent buildup."
         ],
         "gentleCleaning": [
-         "Use mild soap and warm water; avoid abrasive tools."
+          "Use mild soap and warm water; avoid abrasive tools."
         ],
         "naturalPatina": [
-         "Embrace natural tarnish for an aged look or polish for shine."
+          "Embrace natural tarnish for an aged look or polish for shine."
         ],
-        "avoidMoisture": [
-          "Dry thoroughly after exposure to water."
-        ],
-        "storage": [
-          "Store in a cool, dry place; wrap to prevent scratches."
-        ],
-        "noHarshChemicals": [
-          "Avoid bleach and abrasive cleaners."
-        ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+        "avoidMoisture": ["Dry thoroughly after exposure to water."],
+        "storage": ["Store in a cool, dry place; wrap to prevent scratches."],
+        "noHarshChemicals": ["Avoid bleach and abrasive cleaners."]
+      },
+      "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "17",
@@ -717,45 +497,28 @@
       "description": "Elevate your decor with our stunning Copper Helmet. Handcrafted to perfection, this exquisite piece combines artistry and heritage. Its lustrous surface and intricate detailing add a touch of timeless elegance to any space. A captivating blend of craftsmanship and style, this copper helmet is a statement piece that exudes sophistication.",
       "price": 35.99,
       "discount": "50%",
-      "material": [
-        "Copper",
-        "brass"
-      ],
-      "dimensions": [
-        "24 x 36 cm"
-      ],
-      "weight": [
-        "3.4kg"
-      ],
+      "material": ["Copper", "brass"],
+      "dimensions": ["24 x 36 cm"],
+      "weight": ["3.4kg"],
       "condition": "New",
       "odrzuvanje": {
         "regularDusting": [
-         "Wipe with a soft, lint-free cloth to prevent buildup."
+          "Wipe with a soft, lint-free cloth to prevent buildup."
         ],
         "gentleCleaning": [
-         "Use mild soap and warm water; avoid abrasive tools."
+          "Use mild soap and warm water; avoid abrasive tools."
         ],
         "naturalPatina": [
-         "Embrace natural tarnish for an aged look or polish for shine."
+          "Embrace natural tarnish for an aged look or polish for shine."
         ],
-        "avoidMoisture": [
-          "Dry thoroughly after exposure to water."
-        ],
-        "storage": [
-          "Store in a cool, dry place; wrap to prevent scratches."
-        ],
-        "noHarshChemicals": [
-          "Avoid bleach and abrasive cleaners."
-        ]
-       },
-      "tags": [
-        "polo",
-        "elegant",
-        "durable"
-      ]
+        "avoidMoisture": ["Dry thoroughly after exposure to water."],
+        "storage": ["Store in a cool, dry place; wrap to prevent scratches."],
+        "noHarshChemicals": ["Avoid bleach and abrasive cleaners."]
+      },
+      "tags": ["polo", "elegant", "durable"]
     }
   ],
-  
+
   "AboutUs": {
     "aboutTitle": "Кои Сме Ние?",
     "aboutText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, incidunt eligendi impedit voluptatum veritatis aliquid deleniti perspiciatis ipsa aut? Nulla, sequi, maiores possimus tempora praesentium provident expedita deleniti animi itaque voluptates alias sit aperiam corrupti, dolore at consectetur obcaecati laboriosam libero vero minus eum dolorem. Consequatur fuga nostrum, beatae, eos voluptas quas deleniti autem qui, ipsam sunt voluptatum minus adipisci facilis debitis voluptatibus molestiae dicta error repudiandae corrupti provident est alias aliquid excepturi officia. Voluptates ea sunt blanditiis nesciunt nemo recusandae adipisci nisi a molestiae dicta perspiciatis excepturi, explicabo nam suscipit doloribus? Provident earum sed nulla optio quaerat natus asperiores eos culpa officiis laboriosam obcaecati autem iste ab ipsam laudantium fugiat, excepturi facere explicabo. Voluptates a animi saepe in accusantium est neque dolor perspiciatis laboriosam! Ipsa obcaecati sint ipsam laudantium soluta cumque nemo. Provident aliquid excepturi maxime assumenda voluptatem expedita pariatur ad harum cupiditate tenetur nisi fuga fugit nulla, magni ullam? Vitae perspiciatis facere quas repudiandae quasi! Ad, veritatis dolorem! Quidem porro asperiores quod dolore sit dolorem vero molestiae accusamus voluptatem cupiditate unde libero, eligendi quia maxime adipisci fugiat eaque nesciunt?",
@@ -767,6 +530,7 @@
     "aboutWorkText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, incidunt eligendi impedit voluptatum veritatis aliquid deleniti perspiciatis ipsa aut? Nulla, sequi, maiores possimus tempora praesentium provident expedita deleniti animi itaque voluptates alias sit aperiam corrupti, dolore at consectetur obcaecati laboriosam libero vero minus eum dolorem. Consequatur fuga nostrum, beatae, eos voluptas quas deleniti autem qui, ipsam sunt voluptatum minus adipisci facilis debitis voluptatibus molestiae dicta error repudiandae corrupti provident est alias aliquid excepturi officia. Voluptates ea sunt blanditiis nesciunt nemo recusandae adipisci nisi a molestiae dicta perspiciatis excepturi, explicabo nam suscipit doloribus? Provident earum sed nulla optio quaerat natus asperiores eos culpa officiis laboriosam obcaecati autem iste ab ipsam laudantium fugiat, excepturi facere explicabo. Voluptates a animi saepe in accusantium est neque dolor perspiciatis laboriosam! Ipsa obcaecati sint ipsam laudantium soluta cumque nemo. Provident aliquid excepturi maxime assumenda voluptatem expedita pariatur ad harum cupiditate tenetur nisi fuga fugit nulla, magni ullam? Vitae perspiciatis facere quas repudiandae quasi! Ad, veritatis dolorem! Quidem porro asperiores quod dolore sit dolorem vero molestiae accusamus voluptatem cupiditate unde libero, eligendi quia maxime adipisci fugiat eaque nesciunt?Consequatur fuga nostrum, beatae, eos voluptas quas deleniti autem qui, ipsam sunt voluptatum minus adipisci facilis debitis voluptatibus molestiae dicta error repudiandae corrupti provident est alias aliquid excepturi officia. Voluptates ea sunt blanditiis nesciunt nemo recusandae adipisci nisi a molestiae dicta perspiciatis excepturi, explicabo nam suscipit doloribus? Provident earum sed nulla optio quaerat natus asperiores eos culpa officiis laboriosam obcaecati autem iste ab ipsam laudantium fugiat, excepturi facere explicabo. Voluptates a animi saepe in accusantium est neque dolor perspiciatis laboriosam! Ipsa obcaecati sint ipsam laudantium soluta cumque nemo. Provident aliquid excepturi maxime assumenda voluptatem expedita pariatur ad harum cupiditate tenetur nisi fuga fugit nulla, magni ullam? Vitae perspiciatis facere quas repudiandae quasi! Ad, veritatis dolorem! Quidem porro asperiores quod dolore sit dolorem vero molestiae accusamus voluptatem cupiditate unde libero, eligendi quia maxime adipisci fugiat eaque nesciunt?",
     "imgWork": "https://portret.digital/wp-content/uploads/2023/09/img_9013.jpeg"
   },
+
   "ContactUs": {
     "PageTitle": "Контакт",
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Campbell_County_Rockpile_Museum_gift_shop_in_Gillette%2C_Wyoming.jpg",
@@ -777,35 +541,78 @@
     "mobNumber": "+ 389 078 380 406",
     "workTime": "Работно Време: Понеделник - Петок 12:00 - 19:00. Сабота 12:00 - 17:00"
   },
-  "Faq": {
-    "PageTitle": "FAQ",
-    "firstQuestion": "Прашање број еден?",
-    "firstAnswer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem.",
-    "secondAnswer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem.",
-    "answers": [
+
+  "FAQ": {
+    "PageTitle": "Frequently Asked Questions",
+    "questionsAndAnswers": [
       {
-        "answerThree": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem."
+        "id": "0",
+        "question": "How long does it take to make a custom piece?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi."
       },
       {
-        "answerFour": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem."
+        "id": "1",
+        "question": "Do you ship worldwide?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in?"
       },
       {
-        "answerFive": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem."
+        "id": "2",
+        "question": "Does copper jewelry leave stains?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Fugiat, consectetur exercitationem."
       },
       {
-        "answerSix": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem."
+        "id": "3",
+        "question": "How do I care for and maintain copper jewelry?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem."
       },
       {
-        "answerSeven": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem."
+        "id": "4",
+        "question": "Is copper jewelry safe to wear?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in?"
       },
       {
-        "answerEight": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem."
+        "id": "5",
+        "question": "Are your products hypoallergenic?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Fugiat, consectetur exercitationem."
+      },
+      {
+        "id": "6",
+        "question": "How can I determine my ring size for copper rings?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem."
+      },
+      {
+        "id": "7",
+        "question": "Do you offer any warranties or guarantees on your products?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in?"
+      },
+      {
+        "id": "8",
+        "question": "What is the shipping and delivery process?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Fugiat, consectetur exercitationem."
+      },
+      {
+        "id": "9",
+        "question": "What payment methods do you accept?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem."
+      },
+      {
+        "id": "10",
+        "question": "Can I track my order once it's been shipped?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in?"
+      },
+      {
+        "id": "11",
+        "question": "What is your return and exchange policy?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Fugiat, consectetur exercitationem."
+      },
+      {
+        "id": "12",
+        "question": "Do you offer gift wrapping or packaging options?",
+        "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque maiores eos asperiores optio suscipit itaque ex explicabo, velit aut ut voluptas aliquam molestias aperiam, consequatur maxime, id sint quisquam omnis cupiditate fugiat aliquid doloremque dignissimos tempora in? Inventore iste vel culpa laborum doloribus rem alias cumque modi. Fugiat, consectetur exercitationem."
       }
-    ],
-    "secondQuestion": "Прашање број два?",
-    "thirdQuestion": "Прашање број три",
-    "fourthQuestion": "Прашање број четири"
+    ]
   },
+
   "brands": [
     {
       "id": 1,
