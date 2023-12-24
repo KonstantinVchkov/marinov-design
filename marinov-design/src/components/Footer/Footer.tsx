@@ -34,22 +34,22 @@ const Footer = () => {
         </div>
         <div className={style.Subtitle}>
           <ul>
-            <Link href="/">
+            <Link href="/jewelry?category=Earrings">
               <li>Earrings</li>
             </Link>
-            <Link href="/">
+            <Link href="/jewelry?category=Rings">
               <li>Rings</li>
             </Link>
-            <Link href="/">
+            <Link href="/jewelry?category=Necklaces">
               <li>Nechlaces</li>
             </Link>
-            <Link href="/">
+            <Link href="/jewelry?category=Bracelets">
               <li>Bracelets</li>
             </Link>
-            <Link href="/">
+            <Link href="/jewelry?category=Sets">
               <li>Sets</li>
             </Link>
-            <Link href="/">
+            <Link href="/jewelry?category=Other">
               <li>Other</li>
             </Link>
           </ul>
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
         <div className={style.Subtitle}>
           <ul>
-            <Link href="/">
+            <Link href="/homedecor">
               <li>Helmets</li>
             </Link>
             <Link href="/">
@@ -70,13 +70,19 @@ const Footer = () => {
           </ul>
         </div>
         <div className={style.Title}>
-          <h3>Custom orders</h3>
+          <Link href={"/customorders"}>
+            <h3>Custom orders</h3>
+          </Link>
         </div>
         <div className={style.Title}>
-          <h3>Our story</h3>
+          <Link href={"/ourstory"}>
+            <h3>Our story</h3>
+          </Link>
         </div>
         <div className={style.Title}>
-          <h3>Faq</h3>
+          <Link href={"/FAQ"}>
+            <h3>Faq</h3>
+          </Link>
         </div>
         <div className={style.Title}>
           <h3>Contact</h3>

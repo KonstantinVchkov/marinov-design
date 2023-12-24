@@ -34,7 +34,14 @@ const PaymentSuccessfully: NextPage = () => {
       setLoading(false);
     }, 3000);
   };
-
+  const calculateTotalPrice = () => {
+    return parsedObject.reduce((total, product) => {
+      // Convert product.price to a number if it's not already
+      const productPrice = typeof product.price === 'number' ? product.price : parseFloat(product.price);
+      // Return the sum as a number
+      return total + productPrice + 10;
+    }, 0);
+  };
   useEffect(() => {
     handlePaymentProcess();
   }, []);
@@ -67,7 +74,13 @@ const PaymentSuccessfully: NextPage = () => {
               <h2 style={{ color: `#316d61` }}>Payment Successfully</h2>
               <p className="py-4" style={{ color: `#316d61` }}>
                 Amount Paid:
-                {parsedObject.map((prod) => {
+                <span
+                  className="font-weight-bold"
+                  style={{ fontWeight: `700` }}
+                >
+                  ${calculateTotalPrice()} {/* Display total price here */}
+                </span>
+                {/* {parsedObject.map((prod) => {
                   return (
                     <span
                     key={prod.id}
@@ -77,7 +90,7 @@ const PaymentSuccessfully: NextPage = () => {
                       ${prod.price + 10}
                     </span>
                   );
-                })}{" "}
+                })}{" "} */}
               </p>
               <p
                 className="font-weight-bold"
