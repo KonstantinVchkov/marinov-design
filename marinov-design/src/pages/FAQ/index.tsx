@@ -13,7 +13,7 @@ const FAQPage: NextPage<Props> = ({ FAQData }) => {
       <div className="container" style={{ paddingTop: 80 }}>
         <div className="row">
           <div className="col-6 p-0">
-            <p className="FAQ-text pl-3">{FAQData.PageTitle}</p>
+            <p className="FAQ-text pl-3 bg-transparent">{FAQData.PageTitle}</p>
             <img src="/images/FAQPAGE/faq_bg_vector.svg" alt="" />
           </div>
         </div>

@@ -2,45 +2,78 @@ import React, { useEffect, useState } from "react";
 import style from "./style.module.css";
 import { ProductType } from "@/Interfaces/interfaces";
 import SwiperReleatedProducts from "@/components/Swiper/SwiperReleatedProducts";
+import { Carousel } from "react-bootstrap";
+import Modal from "@/components/Modal/Modal";
 
 interface Props {
   product: ProductType;
   products: ProductType[];
 }
 
+export const LS_PRODUCTS_IN_CART = "productsInCart";
+export const LS_FAVOURITE_PRODUCTS = "favouriteProducts";
+
 const ProductDetail: React.FC<Props> = ({ product, products }) => {
   console.log(product.images)
   const [counter, setCounter] = useState<number>(0);
+  const [productsInCart, setProductsInCart] = useState<ProductType[]>([]);
+  const [favoriteProducts, setFavoriteProducts] = useState<ProductType[]>([]);
+
+  const [openModal, setOpenModal] = useState<boolean>(false);
+
   const [displayedLiElements, setDisplayedLiElements] = useState<number>(3);
 
   const [isSticky, setIsSticky] = useState<boolean>(false);
   const [lastScrollTop, setLastScrollTop] = useState<number>(0);
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollPosition = window.scrollY;
-  //     const scrollContainer = document.getElementById("scroll-container");
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const scrollContainer = document.getElementById("scroll-container");
 
-  //     if (scrollContainer) {
-  //       const containerOffset = scrollContainer.offsetTop;
+      if (scrollContainer) {
+        const containerOffset = scrollContainer.offsetTop;
 
-  //       if (
-  //         scrollPosition > containerOffset &&
-  //         scrollPosition > lastScrollTop
-  //       ) {
-  //         setIsSticky(true);
-  //       } else if (scrollPosition < containerOffset) {
-  //         setIsSticky(false);
-  //       }
-  //       setLastScrollTop(scrollPosition);
-  //     }
-  //   };
+        if (
+          scrollPosition > containerOffset &&
+          scrollPosition > lastScrollTop
+        ) {
+          setIsSticky(true);
+        } else if (scrollPosition < containerOffset) {
+          setIsSticky(false);
+        }
+        setLastScrollTop(scrollPosition);
+      }
+    };
 
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, [lastScrollTop]);
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollTop]);
+
+  useEffect(() => {
+    if (localStorage.getItem(LS_PRODUCTS_IN_CART)) {
+      const cartFromLS = localStorage.getItem(LS_PRODUCTS_IN_CART);
+      if (cartFromLS) {
+        setProductsInCart(JSON.parse(cartFromLS));
+      }
+    } else {
+      localStorage.setItem(LS_PRODUCTS_IN_CART, JSON.stringify(productsInCart));
+    }
+
+    if (localStorage.getItem(LS_FAVOURITE_PRODUCTS)) {
+      const favoritesFromStorage = localStorage.getItem(LS_FAVOURITE_PRODUCTS);
+      if (favoritesFromStorage) {
+        setFavoriteProducts(JSON.parse(favoritesFromStorage));
+      }
+    } else {
+      localStorage.setItem(
+        LS_FAVOURITE_PRODUCTS,
+        JSON.stringify(favoriteProducts)
+      );
+    }
+  }, []);
 
   const handleIncrement = () => {
     counter < 5 ? setCounter(counter + 1) : null;
@@ -54,16 +87,67 @@ const ProductDetail: React.FC<Props> = ({ product, products }) => {
     setDisplayedLiElements((prev) => prev + 3);
   };
 
+  const handleAddtoCart = () => {
+    const updatedCart = [...productsInCart];
+    const existingProductIndex = updatedCart.findIndex(
+      (item) => item.id === product.id
+    );
+
+    if (existingProductIndex !== -1) {
+      updatedCart[existingProductIndex] = {
+        ...updatedCart[existingProductIndex],
+      };
+    } else {
+      updatedCart.push({ ...product });
+    }
+
+    setProductsInCart(updatedCart);
+    localStorage.setItem(LS_PRODUCTS_IN_CART, JSON.stringify(updatedCart));
+  };
+
+  const handleAddToFavorites = () => {
+    const isAlreadyInFavorites = favoriteProducts.some(
+      (favProduct) => favProduct.id === product.id
+    );
+
+    if (!isAlreadyInFavorites) {
+      setFavoriteProducts([...favoriteProducts, product]);
+      localStorage.setItem(
+        LS_FAVOURITE_PRODUCTS,
+        JSON.stringify([...favoriteProducts, product])
+      );
+    }
+  };
+
+  const handleOpenModal = () => {
+    setOpenModal(false);
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <div className="container text-dark" style={{ paddingTop: 80 }}>
         <div className="row">
           <div className="col-12 p-0">
-            <img
-              src={product.images[0]}
-              alt={product.images[0]}
-              style={{ width: "100%", height: "500px" }}
-            />
+            <Carousel className="mb-5">
+              {product.images.map((img, idx) => (
+                <Carousel.Item key={idx}>
+                  <div>
+                    <img
+                      className="d-block w-100"
+                      src={img}
+                      alt={product.name}
+                    />
+                  </div>
+                </Carousel.Item>
+              ))}
+            </Carousel>
           </div>
 
           <div className="col-12 my-3">
@@ -114,14 +198,29 @@ const ProductDetail: React.FC<Props> = ({ product, products }) => {
                   />
                 </button>
               </div>
-              <div>
+              <div
+                onClick={(
+                  event: React.MouseEvent<HTMLDivElement, MouseEvent>
+                ) => {
+                  event.preventDefault();
+                  handleAddToFavorites();
+                }}>
                 <p className={`${style.font} text-capitalize m-0`}>
                   save for later
                 </p>
               </div>
             </div>
             <div className="w-100">
-              <button className="ask-question-btn border-0 my-3 w-100">
+              <button
+                className="ask-question-btn border-0 my-3 w-100"
+                onClick={(
+                  event: React.MouseEvent<HTMLButtonElement, MouseEvent>
+                ) => {
+                  event.preventDefault();
+                  handleAddtoCart();
+                  scrollToTop();
+                  setOpenModal(true);
+                }}>
                 <div className="ask-question-btn-font">Add to Cart</div>
               </button>
             </div>
@@ -212,6 +311,13 @@ const ProductDetail: React.FC<Props> = ({ product, products }) => {
           </div>
         </div>
       </div>
+      {openModal === true ? (
+        <Modal
+          content={`${product.name} 
+        has been added to the cart.`}
+          onClick={handleOpenModal}
+        />
+      ) : null}
     </>
   );
 };
