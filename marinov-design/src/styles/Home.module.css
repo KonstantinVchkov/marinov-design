@@ -227,3 +227,14 @@
     transform: rotate(0deg);
   }
 }
+
+
+
+.payment_successfully{
+  background-image: url("../../public/images/Payments/loading\ spiral.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
