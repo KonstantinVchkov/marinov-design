@@ -135,6 +135,17 @@ const handlePayment = () => {
                 <PaymentCardReview/>
               </div>
             </div>
+            <button
+                  type="submit"
+                  className="w-100 btn mt-5"
+                  style={{
+                    borderRadius: `16px 0px 16px 0px`,
+                    color: `#FBFAF8`,
+                    background: `#3c1913`,
+                  }}
+                >
+                  Proceed to Payment
+                </button>
           </form>
         </div>
       </div>

@@ -1,6 +1,20 @@
-import React from 'react'
+import { IProductProps } from '@/types/ProjectTypes';
+import React, { useEffect, useState } from 'react'
 
 const PaymentInformation = () => {
+  const [parsedObject, setParsedObject] = useState<IProductProps[]>([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      if (typeof localStorage !== "undefined") {
+        const storedObjects = localStorage.getItem("productsInCart");
+        const parsedData = storedObjects ? JSON.parse(storedObjects) : [];
+        setParsedObject(parsedData);
+      }
+    };
+
+    fetchData();
+  }, []);
   return (
     <div
     className="col-11 ml-auto mr-auto"
@@ -21,9 +35,16 @@ const PaymentInformation = () => {
         www.marinovdesign.com
       </p>
       <p className="m-0">Amount</p>
-      <p className="pb-1" style={{ fontWeight: `700` }}>
-        $76
+      {
+          parsedObject.map((prod)=> {
+            return (
+              <p className="pb-1" style={{ fontWeight: `700` }}>
+        ${prod.price + 10}
       </p>
+            )
+          })
+        }
+      
     </div>
   </div>
   )
