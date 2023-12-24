@@ -1,6 +1,7 @@
+'use-client'
 import React, { useState } from "react";
 import style from "./style.module.css";
-import router from "next/router";
+import router, { useRouter } from "next/router";
 
 const FilterArr = [
   "All items",
@@ -12,16 +13,12 @@ const FilterArr = [
   "Other",
 ];
 interface IFilters {
-  currentSearch?: string;
   onFilterSelect: (value: string) => void;
-  onSearchFilter?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  images: string;
 }
-const Filters = ({
-  onFilterSelect,
-  onSearchFilter,
-  currentSearch,
-}: IFilters) => {
+const Filters = ({ onFilterSelect, images }: IFilters) => {
   const [searchProduct, setSearchProduct] = useState("");
+  const router = useRouter();
 
   const handleFilter = (value: string) => {
     onFilterSelect(value);
@@ -29,17 +26,29 @@ const Filters = ({
   const handleSearchFilter = (e: React.ChangeEvent<HTMLInputElement>) => {
     const searchValue = e.target.value;
     setSearchProduct(searchValue);
-  
-    // Only trigger search when the searchValue length is greater than or equal to 3
+
     if (searchValue.length >= 4) {
       router.push(`/jewelry?category=${encodeURIComponent(searchValue)}`);
     } else if (searchValue.length === 0) {
-      // If the search box is cleared, reset the search
-      router.push('/jewelry');
+      router.push("/jewelry");
+    }
+  };
+  const getImageForCurrentPage = () => {
+    const page = router.pathname.split("/").pop();
+    switch (page) {
+      case "jewelry":
+        return "/images/JEWELRYIMAGES/jewelry_title_earrings.jpg";
+      case "homedecor":
+        return "/images/HomeDecorPage/helmetstitle.jpg";
+      default:
+        return "/images/default.jpg"; 
     }
   };
   return (
     <>
+      <div className={style.ImgProducts}>
+        <img src={getImageForCurrentPage()} alt={`proper image`} />
+      </div>
       <div className={style.Filters}>
         <ul>
           {FilterArr.map((filterName) => (
@@ -60,15 +69,9 @@ const Filters = ({
         </div>
         <div className={style.SelectOption}>
           <select name="" id="">
-            <option value="Feautured">
-              Sort:Feautured
-            </option>
-            <option value="New" >
-              New
-            </option>
-            <option value="Old" >
-              Old
-            </option>
+            <option value="Feautured">Sort:Feautured</option>
+            <option value="New">New</option>
+            <option value="Old">Old</option>
           </select>
         </div>
       </div>

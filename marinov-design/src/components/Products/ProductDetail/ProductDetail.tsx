@@ -9,6 +9,7 @@ interface Props {
 }
 
 const ProductDetail: React.FC<Props> = ({ product, products }) => {
+  console.log(product.images)
   const [counter, setCounter] = useState<number>(0);
   const [displayedLiElements, setDisplayedLiElements] = useState<number>(3);
 
