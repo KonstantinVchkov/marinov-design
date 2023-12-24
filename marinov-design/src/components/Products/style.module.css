@@ -25,15 +25,61 @@
 }
 .Filters {
   width: 375px;
+  overflow-x: auto;
+  white-space: nowrap;
 }
-.Filters ul{
-  display: flex;
+.Filters ul {
+  /* display: flex;
   margin: 10px 0px;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100%; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
-.Filters ul li{
-  margin-left: 5px;
+.Filters ul li {
+  /* margin-left: 5px; */
+  display: inline-block;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.Filters::-webkit-scrollbar {
+  height: 10px;
+}
+.Filters::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.Filters::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.Filters::-webkit-scrollbar-thumb:hover{
+  background: #555;
+}
+.initialSearching {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px auto;
+  font-family: Amulya;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.inputSearch input {
+  padding: 15px 15px;
+  border: 1px solid #3c191380;
+  border-radius: 16px;
+  width: 200px;
+  height: 32px;
+}
+.SelectOption select {
+  width: 113px;
+  height: 32px;
+  border: none;
 }

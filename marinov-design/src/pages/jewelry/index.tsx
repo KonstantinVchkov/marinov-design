@@ -13,20 +13,22 @@ interface IProductsPage {
 }
 const JewelryPage: NextPage<IProductsPage> = ({
   productsData,
-  resProductsFilter,
 }) => {
-  const [currentFilter, setCurrentFilter] = useState('');
-
   const handleFilterSelect = (filterValue: string) => {
-    setCurrentFilter(filterValue);
-   
-    router.push(filterValue === 'All items' ? '/jewelry' : `/jewelry?category=${filterValue}`);
+    // console.log('searchInput',filterValue)
+    router.push(
+      filterValue === "All items"
+        ? "/jewelry"
+        : `/jewelry?category=${filterValue}`
+    );
   };
+  
+  
   return (
     <div className={style.MainProductsPage}>
       <Filters onFilterSelect={handleFilterSelect}  />
       <div className={style.ProductJewelryPage}>
-      {productsData.map((productCard) => (
+        {productsData.map((productCard) => (
           <Product key={productCard.id} {...productCard} />
         ))}
       </div>
@@ -40,9 +42,14 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   const { query } = context;
 
   try {
-    const url = query.category
-      ? `${API_URL}/products?category=${query.category}`
-      : `${API_URL}/products`;
+    let url = `${API_URL}/products`;
+    if (query.category) {
+      url += `?category=${query.category}`;
+    }
+    if (query.search) {
+      url += query.category ? `&` : `?`;
+      url += `category=${query.search}`;
+    }
 
     const res = await axios.get(url);
     return {
@@ -60,3 +67,26 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   }
 };
 
+// export const getServerSideProps: GetServerSideProps = async (context) => {
+//   const { query } = context;
+
+//   try {
+//     const url = query.category
+//       ? `${API_URL}/products?category=${query.category}`
+//       : `${API_URL}/products`;
+
+//     const res = await axios.get(url);
+//     return {
+//       props: {
+//         productsData: res.data,
+//       },
+//     };
+//   } catch (error) {
+//     console.error("Error fetching products:", error);
+//     return {
+//       props: {
+//         productsData: [],
+//       },
+//     };
+//   }
+// };
