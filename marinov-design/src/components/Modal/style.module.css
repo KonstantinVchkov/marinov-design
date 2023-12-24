@@ -1,0 +1,14 @@
+.customModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(180deg, #ffdbdb 0%, #fdfdfd 54%, #fdfdfd 64%);
+  border: 2px solid black;
+  border-radius: 5px;
+  color: #3c1913;
+}
