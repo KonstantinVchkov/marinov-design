@@ -5,12 +5,13 @@ import React from "react";
 
 interface Props {
   product: ProductType;
+  productsData: ProductType[];
 }
 
-const ProductDetailPage: NextPage<Props> = ({ product }) => {
+const ProductDetailPage: NextPage<Props> = ({ product, productsData }) => {
   return (
     <>
-      <ProductDetail product={product} />
+      <ProductDetail product={product} products={productsData} />
     </>
   );
 };
@@ -45,7 +46,10 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     product = await productRes.json();
   }
 
+  const productsRes = await fetch(`http://localhost:5001/products`);
+  const productsData: ProductType[] = await productsRes.json();
+
   return {
-    props: { product },
+    props: { product, productsData },
   };
 };

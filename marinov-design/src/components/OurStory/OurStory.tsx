@@ -2,7 +2,16 @@ import React from 'react';
 import style from "./style.module.css";
 import CarouselComponent from './Carousel';
 
-const OurStory = () => {
+interface ImageProps {
+    imageUrl: string;
+    id: number;
+  }
+  
+  interface OurStoryProps {
+    images: ImageProps[];
+  }
+
+const OurStory: React.FC<OurStoryProps> = ({images}) => {
   return (
   <>
             <div className={style.OurStory}>
@@ -52,7 +61,7 @@ const OurStory = () => {
                     <p className={style.Paragraph}>Using <b>traditional techniques</b> taught by her family, she experiments with new <b>complementary materials</b> and methods of production, mixing <b>past and present</b> to create timeless pieces of jewelry.</p>
                     <h5>Peek Into Our Process</h5>
                 </div>
-            <CarouselComponent/>
+            <CarouselComponent images={images}/>
                 <div className={style.Container}>
                     <p className={style.SmallFontParagraph}>Crafting copper jewelry is a meticulous art, requiring precision, honed skill, and a deep commitment to excellence. Every step, from shaping the raw copper to adding intricate details, demands careful attention.</p>
                     <p className={style.SmallFontParagraph}>It's more than creating a piece of jewelry; it's a dedication to the art, passion, and expertise that define our work.</p>
