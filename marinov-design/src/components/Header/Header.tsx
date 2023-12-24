@@ -35,7 +35,7 @@ const Header: React.FC<HeaderProps> = ({ isHomePage }) => {
         <img
           src="/images/icon-svgs/hamburger_menu.svg"
           alt="hamburger_menu"
-          className={style.NavItem}
+          className={style.Burger}
         />
         <ul className={`${style.Ul} ${isMenuOpen ? style.UlOpen : ""}`}>
           <li>
@@ -84,11 +84,11 @@ const Header: React.FC<HeaderProps> = ({ isHomePage }) => {
         )}
       </div>
       <div>
-        <Link href={'/cartPage'}>
+        <Link href={"/cartPage"}>
           <img
             src="/images/icon-svgs/cart.svg"
             alt="card"
-            className={style.NavItem}
+            className={style.Cart}
           />
         </Link>
       </div>
