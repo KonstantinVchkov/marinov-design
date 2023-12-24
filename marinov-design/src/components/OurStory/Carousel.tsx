@@ -1,5 +1,5 @@
-import Carousel from 'react-bootstrap/Carousel';
-import style from "./style.module.css"
+import Carousel from "react-bootstrap/Carousel";
+import style from "./style.module.css";
 
 export interface ImageProps {
   imageUrl: string;
@@ -17,11 +17,7 @@ const CarouselComponent: React.FC<CarouselProps> = (props) => {
     <Carousel className={style.Carousel}>
       {images.map((img) => (
         <Carousel.Item key={img.id}>
-          <img
-            className="d-block w-100"
-            src={img.imageUrl}
-            alt=""
-          />
+          <img className="d-block w-100" src={img.imageUrl} alt="" />
         </Carousel.Item>
       ))}
     </Carousel>

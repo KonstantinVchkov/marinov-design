@@ -11,7 +11,7 @@ export interface FAQType {
 
 export interface ProductType {
   id: string;
-  images: [string];
+  images: string[];
   brand: string;
   name: string;
   category: string;
