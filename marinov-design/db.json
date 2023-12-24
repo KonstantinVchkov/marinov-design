@@ -1,4 +1,40 @@
 {
+
+    "translations": {
+      
+      "en": {
+        "firstSection": {
+          "title": "Unique Handcrafted Jewelry",
+          "description": "Explore our unique handcrafted jewelry collection."
+        },
+        "secondSection": {
+          "title": "Custom Made Orders",
+          "description": "Place your custom orders and create something unique."
+        },
+        "thirdSection": {
+          "title": "Exceptional Home Decor",
+          "description": "Discover exceptional home decor items for your space."
+        }
+      },
+
+      "mk": {
+        "firstSection": {
+          "title": "Уникатен Рачно Изработен Накит",
+          "description": "Истражете нашата уникатна колекција на рачно изработен накит."
+        },
+        "secondSection": {
+          "title": "Порачки по Нарачка",
+          "description": "Поставете ги вашите порачки по ваш избор и креирајте нешто уникатно."
+        },
+        "thirdSection": {
+          "title": "Извонредна Домашна Декорација",
+          "description": "Откријте извонредни предмети за домашна декорација за вашиот простор."
+        }
+      }
+    },
+
+
+
   "giftPrices": {
     "choosePrice": "Одбери цена на подарок картичка",
     "prices": [500, 1000, 1500, 2500, 3500, 4500, 6000]

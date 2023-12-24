@@ -34,7 +34,7 @@ const Header: React.FC<HeaderProps> = ({isHomePage}) => {
   return (
     <div className={style.Header}>
         <div onClick={toggleMenu}>
-          <img src="/images/icon-svgs/hamburger_menu.svg" alt="hamburger_menu" className={style.NavItem} />
+          <img src="/images/icon-svgs/hamburger_menu.svg" alt="hamburger_menu" className={style.Burger} />
             <ul className={`${style.Ul} ${isMenuOpen ? style.UlOpen : ""}`}>
               <li><Link href='/'>Home</Link></li>
               <li><Link href='jewelry'>Jewelry</Link></li>
@@ -63,7 +63,7 @@ const Header: React.FC<HeaderProps> = ({isHomePage}) => {
         </div>
         <div>
           <Link href='yourcard'>
-        <img src="/images/icon-svgs/cart.svg" alt="card" className={style.NavItem}/>
+        <img src="/images/icon-svgs/cart.svg" alt="card" className={style.Cart}/>
           </Link>
         </div>
     </div>
