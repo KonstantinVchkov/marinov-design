@@ -7,14 +7,14 @@ import { useRouter } from "next/router";
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
-  // Check if the current route is the homepage
-  const isHomePage = router.pathname === '/';
+
+  const isHomePage = router.pathname === "/";
   return (
     <>
-    {
-      router.pathname.startsWith(`/payments`) ? null : <Header isHomePage={isHomePage} />
-    }
-      
+      {router.pathname.startsWith(`/payments`) ? null : (
+        <Header isHomePage={isHomePage} />
+      )}
+
       <Component {...pageProps} />
       {
          router.pathname.startsWith(`/payments`) || router.pathname.startsWith(`/cartPage`) ? null :  <Footer />
