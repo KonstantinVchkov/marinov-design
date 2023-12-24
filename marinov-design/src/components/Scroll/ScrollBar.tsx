@@ -4,16 +4,14 @@ import style from './style.module.css';
 const ScrollBar = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Function to detect scroll position
   const toggleVisibility = () => {
-    if (window.pageYOffset > 1300) {
+    if (window.pageYOffset > 1000) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
     }
   };
 
-  // Function to scroll to top
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -33,7 +31,7 @@ const ScrollBar = () => {
     isVisible && (
       <div className={style.ScrollBar} onClick={scrollToTop}>
         ^
-          {/* <img src="/images/icon-svgs/up-arrow.svg" alt="Scroll to Top" /> */}
+   
       </div>
     )
   );

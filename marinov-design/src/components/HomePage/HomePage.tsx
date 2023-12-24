@@ -9,7 +9,7 @@ const HomePage = () => {
     <div className={style.HomePageComponent}>
       <FirstSection />
       <SecondSection />
-      <ScrollBar />
+      {/* <ScrollBar /> */}
     </div>
   );
 };
