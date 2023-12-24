@@ -84,11 +84,13 @@ const Header: React.FC<HeaderProps> = ({ isHomePage }) => {
         )}
       </div>
       <div>
-        <img
-          src="/images/icon-svgs/cart.svg"
-          alt="card"
-          className={style.NavItem}
-        />
+        <Link href={'/cartPage'}>
+          <img
+            src="/images/icon-svgs/cart.svg"
+            alt="card"
+            className={style.NavItem}
+          />
+        </Link>
       </div>
     </div>
   );
