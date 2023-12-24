@@ -11,7 +11,7 @@ export interface FAQType {
 
 export interface ProductType {
   id: string;
-  image: string;
+  images: [string];
   brand: string;
   name: string;
   category: string;
@@ -23,10 +23,11 @@ export interface ProductType {
   dimensions: [string];
   weight: [string];
   condition: string;
-  odrzuvanje: {
-    avoidMoisture: [string];
-    storeProperly: [string];
-    cleanRegularly: [string];
-  };
+  odrzuvanje: [
+    {
+      bold: string;
+      text: string;
+    }
+  ];
   tags: [string];
 }

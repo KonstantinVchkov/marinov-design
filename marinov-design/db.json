@@ -113,7 +113,13 @@
   "products": [
     {
       "id": "1",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -125,22 +131,51 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": {
-        "avoidMoisture": [
-          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-        ],
-        "storeProperly": [
-          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-        ],
-        "cleanRegularly": [
-          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-        ]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "2",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -152,22 +187,51 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": {
-        "avoidMoisture": [
-          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-        ],
-        "storeProperly": [
-          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-        ],
-        "cleanRegularly": [
-          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-        ]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "3",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -179,12 +243,51 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": ["Machine wash", "Iron low"],
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "4",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "name": "Copper Spiral & Black Beads Earrings",
       "category": "Earrings",
@@ -196,22 +299,43 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": {
-        "avoidMoisture": [
-          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-        ],
-        "storeProperly": [
-          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-        ],
-        "cleanRegularly": [
-          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-        ]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "5",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Rings",
       "name": "Diamond Solitaire Ring",
@@ -223,22 +347,39 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": {
-        "avoidMoisture": [
-          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-        ],
-        "storeProperly": [
-          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-        ],
-        "cleanRegularly": [
-          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-        ]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "6",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Rings",
       "name": "Diamond Solitaire Ring",
@@ -250,22 +391,51 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": {
-        "avoidMoisture": [
-          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-        ],
-        "storeProperly": [
-          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-        ],
-        "cleanRegularly": [
-          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-        ]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "7",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Rings",
       "name": "Diamond Solitaire Ring",
@@ -277,22 +447,43 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": {
-        "avoidMoisture": [
-          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-        ],
-        "storeProperly": [
-          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-        ],
-        "cleanRegularly": [
-          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-        ]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "8",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Rings",
       "name": "Diamond Solitaire Ring",
@@ -304,22 +495,51 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": {
-        "avoidMoisture": [
-          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-        ],
-        "storeProperly": [
-          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-        ],
-        "cleanRegularly": [
-          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-        ]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "9",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Necklaces",
       "name": "Silver Heart Locket",
@@ -331,22 +551,43 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": {
-        "avoidMoisture": [
-          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-        ],
-        "storeProperly": [
-          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-        ],
-        "cleanRegularly": [
-          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-        ]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "10",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Necklaces",
       "name": "Silver Heart Locket",
@@ -358,22 +599,51 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": {
-        "avoidMoisture": [
-          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-        ],
-        "storeProperly": [
-          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-        ],
-        "cleanRegularly": [
-          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-        ]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "11",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Necklaces",
       "name": "Silver Heart Locket",
@@ -385,22 +655,39 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": {
-        "avoidMoisture": [
-          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-        ],
-        "storeProperly": [
-          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-        ],
-        "cleanRegularly": [
-          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-        ]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "12",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Necklaces",
       "name": "Silver Heart Locket",
@@ -412,23 +699,40 @@
       "dimensions": ["approx. 7 cm"],
       "weight": ["14 g (per pair)"],
       "condition": "New",
-      "odrzuvanje": {
-        "avoidMoisture": [
-          "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
-        ],
-        "storeProperly": [
-          "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
-        ],
-        "cleanRegularly": [
-          "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
-        ]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
 
     {
       "id": "13",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Bracelets",
       "name": "Charm Bracelet",
@@ -440,25 +744,51 @@
       "dimensions": ["24 x 36 cm"],
       "weight": ["3.4kg"],
       "condition": "New",
-      "odrzuvanje": {
-        "regularDusting": [
-          "Wipe with a soft, lint-free cloth to prevent buildup."
-        ],
-        "gentleCleaning": [
-          "Use mild soap and warm water; avoid abrasive tools."
-        ],
-        "naturalPatina": [
-          "Embrace natural tarnish for an aged look or polish for shine."
-        ],
-        "avoidMoisture": ["Dry thoroughly after exposure to water."],
-        "storage": ["Store in a cool, dry place; wrap to prevent scratches."],
-        "noHarshChemicals": ["Avoid bleach and abrasive cleaners."]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "14",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Bracelets",
       "name": "Charm Bracelet",
@@ -470,25 +800,51 @@
       "dimensions": ["24 x 36 cm"],
       "weight": ["3.4kg"],
       "condition": "New",
-      "odrzuvanje": {
-        "regularDusting": [
-          "Wipe with a soft, lint-free cloth to prevent buildup."
-        ],
-        "gentleCleaning": [
-          "Use mild soap and warm water; avoid abrasive tools."
-        ],
-        "naturalPatina": [
-          "Embrace natural tarnish for an aged look or polish for shine."
-        ],
-        "avoidMoisture": ["Dry thoroughly after exposure to water."],
-        "storage": ["Store in a cool, dry place; wrap to prevent scratches."],
-        "noHarshChemicals": ["Avoid bleach and abrasive cleaners."]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "15",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Bracelets",
       "name": "Charm Bracelet",
@@ -500,25 +856,51 @@
       "dimensions": ["24 x 36 cm"],
       "weight": ["3.4kg"],
       "condition": "New",
-      "odrzuvanje": {
-        "regularDusting": [
-          "Wipe with a soft, lint-free cloth to prevent buildup."
-        ],
-        "gentleCleaning": [
-          "Use mild soap and warm water; avoid abrasive tools."
-        ],
-        "naturalPatina": [
-          "Embrace natural tarnish for an aged look or polish for shine."
-        ],
-        "avoidMoisture": ["Dry thoroughly after exposure to water."],
-        "storage": ["Store in a cool, dry place; wrap to prevent scratches."],
-        "noHarshChemicals": ["Avoid bleach and abrasive cleaners."]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "16",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "category": "Bracelets",
       "name": "Cuff Bracelet",
@@ -530,25 +912,51 @@
       "dimensions": ["24 x 36 cm"],
       "weight": ["3.4kg"],
       "condition": "New",
-      "odrzuvanje": {
-        "regularDusting": [
-          "Wipe with a soft, lint-free cloth to prevent buildup."
-        ],
-        "gentleCleaning": [
-          "Use mild soap and warm water; avoid abrasive tools."
-        ],
-        "naturalPatina": [
-          "Embrace natural tarnish for an aged look or polish for shine."
-        ],
-        "avoidMoisture": ["Dry thoroughly after exposure to water."],
-        "storage": ["Store in a cool, dry place; wrap to prevent scratches."],
-        "noHarshChemicals": ["Avoid bleach and abrasive cleaners."]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     },
     {
       "id": "17",
-      "images": ["/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg","/images/JEWELRYIMAGES/earrings3.jpg"],
+      "images": [
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg",
+        "/images/JEWELRYIMAGES/earrings3.jpg"
+      ],
       "brand": "Pinc Partywear",
       "name": "Copper Helmet - Large",
       "category": "Helmets",
@@ -559,21 +967,40 @@
       "material": ["Copper", "brass"],
       "dimensions": ["24 x 36 cm"],
       "weight": ["3.4kg"],
-      "condition": "New",
-      "odrzuvanje": {
-        "regularDusting": [
-          "Wipe with a soft, lint-free cloth to prevent buildup."
-        ],
-        "gentleCleaning": [
-          "Use mild soap and warm water; avoid abrasive tools."
-        ],
-        "naturalPatina": [
-          "Embrace natural tarnish for an aged look or polish for shine."
-        ],
-        "avoidMoisture": ["Dry thoroughly after exposure to water."],
-        "storage": ["Store in a cool, dry place; wrap to prevent scratches."],
-        "noHarshChemicals": ["Avoid bleach and abrasive cleaners."]
-      },
+      "odrzuvanje": [
+        {
+          "bold": "avoid moisture:",
+          "text": "Copper can tarnish when exposed to moisture. Remove your earrings before swimming, showering, or participating in activities that may involve water."
+        },
+        {
+          "bold": "store properly:",
+          "text": "Store your earrings in a dry place, away from humidity. Consider keeping them in a jewelry box or airtight container to prevent tarnishing."
+        },
+        {
+          "bold": "clean regularly:",
+          "text": "To maintain the shine of the copper, clean the earrings regularly with a soft, dry cloth. You can also use a jewelry polishing cloth specifically designed for copper."
+        },
+        {
+          "bold": "avoid chemicals:",
+          "text": "Keep your earrings away from chemicals such as perfumes, lotions, and hairsprays, as these can accelerate tarnishing. Put on your earrings after applying these products."
+        },
+        {
+          "bold": "gentle handling:",
+          "text": "Handle your earrings with care to prevent bending or misshaping of the copper wire. Avoid dropping them on hard surfaces."
+        },
+        {
+          "bold": "protect from scratches:",
+          "text": "When not in use, store your earrings separately from other jewelry to prevent scratches."
+        },
+        {
+          "bold": "check fastenings:",
+          "text": "Periodically check the earring fastenings to ensure they are secure. This is especially important for hook or latch-style earrings."
+        },
+        {
+          "bold": "avoid extreme temperatures:",
+          "text": "Keep your earrings away from extreme temperatures and direct sunlight, as these can affect the appearance of both the copper and beads."
+        }
+      ],
       "tags": ["polo", "elegant", "durable"]
     }
   ],

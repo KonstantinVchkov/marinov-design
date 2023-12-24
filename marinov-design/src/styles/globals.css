@@ -77,13 +77,13 @@
   }
 } */
 @font-face {
-  font-family: 'CabinetGrotesk-Variable';
-  src: url('../fonts/CabinetGrotesk-Variable.woff2') format('woff2'),
-       url('../fonts/CabinetGrotesk-Variable.woff') format('woff'),
-       url('../fonts/CabinetGrotesk-Variable.ttf') format('truetype');
-       font-weight: 100 900;
-       font-display: swap;
-       font-style: normal;
+  font-family: "CabinetGrotesk-Variable";
+  src: url("../fonts/CabinetGrotesk-Variable.woff2") format("woff2"),
+    url("../fonts/CabinetGrotesk-Variable.woff") format("woff"),
+    url("../fonts/CabinetGrotesk-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
 }
 
 * {
@@ -180,15 +180,15 @@ li {
   background-color: #fbfaf8;
 }
 
-.visually-hidden{
+.visually-hidden {
   display: none;
 }
-.carousel-indicators{
+.carousel-indicators {
   background-color: transparent;
   position: absolute;
   bottom: -8%;
 }
-.carousel-indicators button{
+.carousel-indicators button {
   width: 5px;
   margin: 0 10px;
 }

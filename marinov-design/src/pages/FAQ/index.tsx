@@ -10,7 +10,7 @@ interface Props {
 const FAQPage: NextPage<Props> = ({ FAQData }) => {
   return (
     <>
-      <div className="container">
+      <div className="container" style={{ paddingTop: 80 }}>
         <div className="row">
           <div className="col-6 p-0">
             <p className="FAQ-text pl-3">{FAQData.PageTitle}</p>
