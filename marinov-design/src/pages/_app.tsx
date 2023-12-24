@@ -7,7 +7,6 @@ import { useRouter } from "next/router";
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
-
   const isHomePage = router.pathname === "/";
   return (
     <>
@@ -16,9 +15,10 @@ export default function App({ Component, pageProps }: AppProps) {
       )}
 
       <Component {...pageProps} />
-      {
-         router.pathname.startsWith(`/payments`) || router.pathname.startsWith(`/cartPage`) ? null :  <Footer />
-      }
+      {router.pathname.startsWith(`/payments`) ||
+      router.pathname.startsWith(`/cartPage`) ? null : (
+        <Footer />
+      )}
     </>
   );
 }

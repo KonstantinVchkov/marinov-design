@@ -42,25 +42,25 @@ const Header: React.FC<HeaderProps> = ({ isHomePage }) => {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="jewelry">Jewelry</Link>
+            <Link href="/jewelry">Jewelry</Link>
           </li>
           <li>
-            <Link href="homedecor">Home Decor</Link>
+            <Link href="/homedecor">Home Decor</Link>
           </li>
           <li>
-            <Link href="customorders">Custom Orders</Link>
+            <Link href="/customorders">Custom Orders</Link>
           </li>
           <li>
-            <Link href="ourstory">Our story</Link>
+            <Link href="/ourstory">Our story</Link>
           </li>
           <li>
-            <Link href="faq">FAQ</Link>
+            <Link href="/FAQ">FAQ</Link>
           </li>
           <li>
-            <Link href="contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
           <li>
-            <Link href="profile">Profile</Link>
+            <Link href="/profile">Profile</Link>
           </li>
           <li>EN | MK</li>
         </ul>
