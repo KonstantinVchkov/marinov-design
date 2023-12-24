@@ -14,7 +14,7 @@ export const LS_PRODUCTS_IN_CART = "productsInCart";
 export const LS_FAVOURITE_PRODUCTS = "favouriteProducts";
 
 const ProductDetail: React.FC<Props> = ({ product, products }) => {
-  console.log(product.images)
+  console.log(product.images);
   const [counter, setCounter] = useState<number>(0);
   const [productsInCart, setProductsInCart] = useState<ProductType[]>([]);
   const [favoriteProducts, setFavoriteProducts] = useState<ProductType[]>([]);
@@ -312,11 +312,7 @@ const ProductDetail: React.FC<Props> = ({ product, products }) => {
         </div>
       </div>
       {openModal === true ? (
-        <Modal
-          content={`${product.name} 
-        has been added to the cart.`}
-          onClick={handleOpenModal}
-        />
+        <Modal title={product.name} onClick={handleOpenModal} />
       ) : null}
     </>
   );
