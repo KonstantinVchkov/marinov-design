@@ -3,9 +3,9 @@ import style from "./style.module.css";
 import ButtonComp from "../ButtonComponent/Button";
 import { handleRoute } from "@/utils/route";
 
-interface ISecondSection {
-  text: string;
-}
+// interface ISecondSection {
+//   text: string;
+// }
 const SecondSection = () => {
   return (
     <div className={style.SecondSection}>
@@ -47,8 +47,7 @@ const SecondSection = () => {
             handleRoute={() => {
               handleRoute("contact");
             }}
-          />
-          <div className={style.textOldTown}></div>
+          />{" "}
         </div>
       </div>
       <div className={style.reviews}>

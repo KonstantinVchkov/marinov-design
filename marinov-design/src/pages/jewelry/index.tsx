@@ -3,19 +3,30 @@ import { IProductProps } from "@/types/ProjectTypes";
 import axios from "axios";
 import { GetServerSideProps, NextPage } from "next";
 import style from "../../components/Products/style.module.css";
-import React from "react";
+import React, { useState } from "react";
 import Filters from "@/components/Products/Filters";
+import router from "next/router";
 const API_URL = "http://localhost:5001";
 interface IProductsPage {
   productsData: IProductProps[];
+  resProductsFilter: IProductProps[];
 }
-const JewelryPage: NextPage<IProductsPage> = ({ productsData }) => {
-  console.log(productsData);
+const JewelryPage: NextPage<IProductsPage> = ({
+  productsData,
+  resProductsFilter,
+}) => {
+  const [currentFilter, setCurrentFilter] = useState('');
+
+  const handleFilterSelect = (filterValue: string) => {
+    setCurrentFilter(filterValue);
+   
+    router.push(filterValue === 'All items' ? '/jewelry' : `/jewelry?category=${filterValue}`);
+  };
   return (
     <div className={style.MainProductsPage}>
-      <Filters />
+      <Filters onFilterSelect={handleFilterSelect}  />
       <div className={style.ProductJewelryPage}>
-        {productsData.map((productCard) => (
+      {productsData.map((productCard) => (
           <Product key={productCard.id} {...productCard} />
         ))}
       </div>
@@ -25,10 +36,15 @@ const JewelryPage: NextPage<IProductsPage> = ({ productsData }) => {
 
 export default JewelryPage;
 
-export const getServerSideProps: GetServerSideProps = async () => {
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  const { query } = context;
+
   try {
-    const res = await axios.get(`${API_URL}/products`);
-    // const productsData = res.data
+    const url = query.category
+      ? `${API_URL}/products?category=${query.category}`
+      : `${API_URL}/products`;
+
+    const res = await axios.get(url);
     return {
       props: {
         productsData: res.data,
@@ -38,8 +54,9 @@ export const getServerSideProps: GetServerSideProps = async () => {
     console.error("Error fetching products:", error);
     return {
       props: {
-        products: [], // Return an empty array if there's an error
+        productsData: [],
       },
     };
   }
 };
+

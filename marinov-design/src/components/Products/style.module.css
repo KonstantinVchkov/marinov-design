@@ -23,3 +23,17 @@
   letter-spacing: 0em;
   text-align: left;
 }
+.Filters {
+  width: 375px;
+}
+.Filters ul{
+  display: flex;
+  margin: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Filters ul li{
+  margin-left: 5px;
+}
