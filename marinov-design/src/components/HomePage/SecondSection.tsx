@@ -63,10 +63,10 @@ const SecondSection = () => {
             them, I receive compliments. The unique designs and the warmth of
             the staff make Marinov an unforgettable experience. Highly
             recommended!”{" "}
-            <h2>
-              - Elsa Johansson, <span>Sweden</span>
-            </h2>
           </p>
+          <h2>
+            - Elsa Johansson, <span>Sweden</span>
+          </h2>
         </div>
         <div className={style.textContainerOne}>
           <p>
@@ -76,10 +76,10 @@ const SecondSection = () => {
             them, I receive compliments. The unique designs and the warmth of
             the staff make Marinov an unforgettable experience. Highly
             recommended!”{" "}
-            <h2>
-              - Elsa Johansson, <span>Sweden</span>
-            </h2>
           </p>
+          <h2>
+            - Elsa Johansson, <span>Sweden</span>
+          </h2>
         </div>
         <div className={style.textContainerOne}>
           <p>
@@ -89,10 +89,10 @@ const SecondSection = () => {
             them, I receive compliments. The unique designs and the warmth of
             the staff make Marinov an unforgettable experience. Highly
             recommended!”{" "}
-            <h2>
-              - Elsa Johansson, <span>Sweden</span>
-            </h2>
           </p>
+          <h2>
+            - Elsa Johansson, <span>Sweden</span>
+          </h2>
         </div>
         <div className={style.textContainerOne}>
           <p>
@@ -102,10 +102,10 @@ const SecondSection = () => {
             them, I receive compliments. The unique designs and the warmth of
             the staff make Marinov an unforgettable experience. Highly
             recommended!”{" "}
-            <h2>
-              - Elsa Johansson, <span>Sweden</span>
-            </h2>
           </p>
+          <h2>
+            - Elsa Johansson, <span>Sweden</span>
+          </h2>
         </div>
       </div>
     </div>
