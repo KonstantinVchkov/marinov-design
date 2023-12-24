@@ -31,42 +31,22 @@ const Header: React.FC<HeaderProps> = ({ isHomePage }) => {
 
   return (
     <div className={style.Header}>
-      <div onClick={toggleMenu}>
-        <img
-          src="/images/icon-svgs/hamburger_menu.svg"
-          alt="hamburger_menu"
-          className={style.NavItem}
-        />
-        <ul className={`${style.Ul} ${isMenuOpen ? style.UlOpen : ""}`}>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/jewelry">Jewelry</Link>
-          </li>
-          <li>
-            <Link href="/homedecor">Home Decor</Link>
-          </li>
-          <li>
-            <Link href="/customorders">Custom Orders</Link>
-          </li>
-          <li>
-            <Link href="/ourstory">Our story</Link>
-          </li>
-          <li>
-            <Link href="/FAQ">FAQ</Link>
-          </li>
-          <li>
-            <Link href="/contact">Contact</Link>
-          </li>
-          <li>
-            <Link href="/profile">Profile</Link>
-          </li>
-          <li>EN | MK</li>
-        </ul>
-      </div>
-      <div className={style.LogoDiv}>
-        {isHomePage ? (
+        <div onClick={toggleMenu}>
+          <img src="/images/icon-svgs/hamburger_menu.svg" alt="hamburger_menu" className={style.Burger} />
+            <ul className={`${style.Ul} ${isMenuOpen ? style.UlOpen : ""}`}>
+              <li><Link href='/'>Home</Link></li>
+              <li><Link href='jewelry'>Jewelry</Link></li>
+              <li><Link href="homedecor">Home Decor</Link></li>
+              <li><Link href='customorders'>Custom Orders</Link></li>
+              <li><Link href='ourstory'>Our story</Link></li>
+              <li><Link href='faq'>FAQ</Link></li>
+              <li><Link href='contact'>Contact</Link></li>
+              <li><Link href='profile'>Profile</Link></li>
+              <li>EN | MK</li>
+            </ul>     
+        </div>
+        <div className={style.LogoDiv}>
+           {isHomePage ? (
           <>
             <img
               src="images/icon-svgs/logo_scroll.svg"
@@ -78,17 +58,14 @@ const Header: React.FC<HeaderProps> = ({ isHomePage }) => {
             <img src="/images/icon-svgs/Vector.svg" alt="logo" />
           </>
         ) : (
-          <Link href={"/"}>
-            <img src="/images/icon-svgs/Vector.svg" alt="logo" />
-          </Link>
+          <img src="/images/icon-svgs/Vector.svg" alt="logo" />
         )}
-      </div>
-      <div>
-        <img
-          src="/images/icon-svgs/cart.svg"
-          alt="card"
-          className={style.NavItem}
-        />
+        </div>
+        <div>
+          <Link href='yourcard'>
+        <img src="/images/icon-svgs/cart.svg" alt="card" className={style.Cart}/>
+          </Link>
+       
       </div>
     </div>
   );
