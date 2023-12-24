@@ -39,6 +39,40 @@
       }
     ]
   },
+  "gallery": [
+    {
+        "id": 1,
+        "imageUrl": "/images/CUSTOMORDERSIMAGES/custom gallery 1.jpg"
+    },
+    {
+        "id": 2,
+        "imageUrl": "/images/CUSTOMORDERSIMAGES/custom orders title.jpg"
+    },
+    {
+        "id": 3,
+        "imageUrl": "/images/CUSTOMORDERSIMAGES/custom gallery 3.jpg"
+    },
+    {
+        "id": 4,
+        "imageUrl": "/images/CUSTOMORDERSIMAGES/custom gallery 4.jpg"
+    },
+    {
+        "id": 5,
+        "imageUrl": "/images/CUSTOMORDERSIMAGES/custom gallery 5.jpg"
+    }, 
+    {
+        "id": 6,
+        "imageUrl": "/images/CUSTOMORDERSIMAGES/custom gallery 6.jpg"
+    },
+    {
+        "id": 7,
+        "imageUrl": "/images/CUSTOMORDERSIMAGES/custom gallery 7.jpg"
+    },
+    {
+        "id": 8,
+        "imageUrl": "/images/CUSTOMORDERSIMAGES/custom gallery 8.jpg"
+    }
+],  
 
   "profile": [
     {
