@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
       
       <Component {...pageProps} />
       {
-         router.pathname.startsWith(`/payments`) ? null :  <Footer />
+         router.pathname.startsWith(`/payments`) || router.pathname.startsWith(`/cartPage`) ? null :  <Footer />
       }
     </>
   );
