@@ -74,6 +74,31 @@
     }
 ],  
 
+"ourstorycarousel": [
+  {
+      "id": 1,
+      "imageUrl": "/images/OURSTORYIMAGES/process carousel 1.jpg"
+  },
+  {
+      "id": 2,
+      "imageUrl": "/images/OURSTORYIMAGES/process carousel 2.jpg"
+  },
+  {
+      "id": 3,
+      "imageUrl": "/images/OURSTORYIMAGES/process carousel 3.jpg"
+  },
+  {
+      "id": 4,
+      "imageUrl": "/images/OURSTORYIMAGES/process carousel 4.jpg"
+  },
+  {
+      "id": 5,
+      "imageUrl": "/images/OURSTORYIMAGES/process carousel 5.jpg"
+  }
+],  
+
+
+
   "profile": [
     {
       "firstName": "Konstantin",
